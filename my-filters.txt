@@ -297,11 +297,22 @@ www.kodpornx.com###text-2
 www.dojinxxx.com##div._mgt-20.container:nth-of-type(1)
 www.dojinxxx.com##.footer-banner
 
-! 5/7/2563 https://story.xn--72c8cbhnqt2b5aq9gce9he.com
-story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://lakornth.com/wp-content/uploads/2020/05/S__22388740.gif"]
-story.xn--72c8cbhnqt2b5aq9gce9he.com##center > center
-story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://www.mx7.com/i/197/pr7emc.gif"]
+! 2020-11-11 https://story.xn--72c8cbhnqt2b5aq9gce9he.com
+story.xn--72c8cbhnqt2b5aq9gce9he.com###fixedbanner > div
+story.xn--72c8cbhnqt2b5aq9gce9he.com###light1 > center
+story.xn--72c8cbhnqt2b5aq9gce9he.com###light1 > p
+story.xn--72c8cbhnqt2b5aq9gce9he.com###main_content_section > .navigate_section > center
+story.xn--72c8cbhnqt2b5aq9gce9he.com###main_content_section > center
+story.xn--72c8cbhnqt2b5aq9gce9he.com###main_content_section > p
 story.xn--72c8cbhnqt2b5aq9gce9he.com##.size-full.alignnone
+story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://i.imgur.com/MAzG6Hs.gif"]
+story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://i.imgur.com/RWqbvwA.gif"]
+story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://lakornth.com/wp-content/uploads/2020/05/S__22388740.gif"]
+story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://www.mx7.com/i/197/pr7emc.gif"]
+story.xn--72c8cbhnqt2b5aq9gce9he.com##body > center
+story.xn--72c8cbhnqt2b5aq9gce9he.com##center > center
+story.xn--72c8cbhnqt2b5aq9gce9he.com##main > .navigate_section > center
+||i.imgur.com/WK0GMfX.gif$image
 
 ! 5/7/2563 https://www.pornbuss.com
 www.pornbuss.com##div#block-banner:nth-of-type(1)
@@ -489,9 +500,6 @@ www.heedum.com##[src="/pic-ads/new2020-JUAD88-728x200.gif"]
 www.heedum.com##.e3lan-below_header.e3lan > p
 www.heedum.com##div#fix_footer2
 
-! 2020-11-11 https://story.xn--72c8cbhnqt2b5aq9gce9he.com
-story.xn--72c8cbhnqt2b5aq9gce9he.com##body > center
-
 ! 2020-11-12 https://postbydnx.com
 postbydnx.com##[href="/"] > .lazyloaded.img-responsive
 postbydnx.com##center > .lazyloaded
@@ -609,10 +617,6 @@ xn--l3c1a0a3b1c1b.com##center:nth-of-type(3)
 postbydnx.com###masthead > .hidden-sm.hidden-xs > div > .lazyloaded
 postbydnx.com##.hidden-sm.hidden-xs > .hidden-sm.hidden-xs > div > .lazyloaded
 
-! 2020-12-13 https://story.xn--72c8cbhnqt2b5aq9gce9he.com
-story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://i.imgur.com/MAzG6Hs.gif"]
-story.xn--72c8cbhnqt2b5aq9gce9he.com##[src="https://i.imgur.com/RWqbvwA.gif"]
-
 ! 2020-12-22 https://www.dojinxxx.com
 www.dojinxxx.com##.banner-left.left-right-banner
 www.dojinxxx.com##.banner-right.left-right-banner
@@ -690,9 +694,6 @@ sex1time.com###text-4 > .textwidget > p
 ||xtgem.com/images/close2.png?v=0.01$image
 ||xtgem.com/images/xtvid/indiandesibhabi.png$image
 thaistory.sextgem.com##[href="http://thaistory.sextgem.com"]
-
-! 2021-01-01 https://story.xn--72c8cbhnqt2b5aq9gce9he.com
-||i.imgur.com/WK0GMfX.gif$image
 
 ! 2021-01-04 https://freejavhub.com
 freejavhub.com##[href="https://freejavhub.com/recommends/next88/"]
@@ -781,11 +782,6 @@ dojin-th.net##div.custom-html-widget.textwidget:nth-of-type(1)
 ! 2021-02-05 https://cat300.com
 cat300.com###cat300_ads2
 cat300.com###cat300_ads3
-
-! 2021-02-17 https://story.xn--72c8cbhnqt2b5aq9gce9he.com
-story.xn--72c8cbhnqt2b5aq9gce9he.com###main_content_section > p
-story.xn--72c8cbhnqt2b5aq9gce9he.com###light1 > center
-story.xn--72c8cbhnqt2b5aq9gce9he.com###light1 > p
 
 ! 2021-02-22 https://www.dujav.com
 www.dujav.com##center
@@ -885,11 +881,6 @@ xn--42c6baga2dd6da0eti2a8e8a.com###slider-f
 xn--l3c1a0a3b1c1b.com##center:nth-of-type(4)
 xn--l3c1a0a3b1c1b.com##[href="https://newyork888.com"]
 xn--l3c1a0a3b1c1b.com##.container > .container > div
-
-! 2021-07-07 https://story.xn--72c8cbhnqt2b5aq9gce9he.com
-story.xn--72c8cbhnqt2b5aq9gce9he.com##main > .navigate_section > center
-story.xn--72c8cbhnqt2b5aq9gce9he.com###main_content_section > center
-story.xn--72c8cbhnqt2b5aq9gce9he.com###fixedbanner > div
 
 ! 2021-07-07 http://thaisexseries.blogspot.com
 ||sv1.picz.in.th/images/2021/05/19/PgwsRk.gif$image
@@ -1073,4 +1064,39 @@ mawtoload.com##.code-block-6.code-block
 
 ! 2022-11-08 https://www.aoxx69.net
 www.aoxx69.net##.slick-slider.slick-initialized.Banner_slick.slider > .draggable.slick-list
+
+! 2022-12-04 https://missav.com
+missav.com##.root--ujvuu
+
+! 2022-12-22 https://www.japanhub.com
+www.japanhub.com###block-34
+www.japanhub.com##.happy-footer
+
+! 2022-12-22 https://youporn-th.com
+||youporn-th.com/wp-content/uploads/2022/04/slotxo-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%95%E0%B8%A3%E0%B8%87-%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95-xo-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%95%E0%B8%A3%E0%B8%87-%E0%B9%84%E0%B8%A1%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%A2%E0%B9%88%E0%B8%99%E0%B8%95%E0%B9%8C.gif$image
+||youporn-th.com/wp-content/uploads/2022/04/%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%95%E0%B8%A3%E0%B8%87-%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95-%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%94%E0%B8%B4%E0%B8%95%E0%B8%9F%E0%B8%A3%E0%B8%B5-%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C.png$image
+||youporn-th.com/wp-content/uploads/2022/04/SLOTXO-%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95-xo-%E0%B8%94%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C%E0%B9%82%E0%B8%AB%E0%B8%A5%E0%B8%94-slotxo-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%95%E0%B8%A3%E0%B8%87-xoslot-%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%AA%E0%B8%A5%E0%B9%87%E0%B8%AD%E0%B8%95-xo.png$image
+youporn-th.com##.img_adv
+youporn-th.com###left_slotxo
+youporn-th.com###gmod
+
+! 2022-12-22 https://pornthai911.com
+pornthai911.com###adv
+pornthai911.com###gmod
+pornthai911.com###left_slotxo
+
+! 2022-12-22 https://xn--69-lqix3g1eqa4a0lzc.com
+xn--69-lqix3g1eqa4a0lzc.com##.img_adv
+xn--69-lqix3g1eqa4a0lzc.com###gmod
+xn--69-lqix3g1eqa4a0lzc.com###left_slotxo
+xn--69-lqix3g1eqa4a0lzc.com##.code-block-3.code-block
+
+! 2022-12-22 https://avgle.com
+||adserver.juicyads.com/adshow.php$subdocument
+
+! 2022-12-23 https://xn--12cm9aqlbec6ec8e9c3adc18aqb.com
+xn--12cm9aqlbec6ec8e9c3adc18aqb.com##.bounce.animated.bc_rb_popup_container
+
+! 2022-12-28 https://www.javbob.com
+www.javbob.com##center#bannermo550:nth-of-type(22)
 
