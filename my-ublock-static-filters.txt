@@ -9,6 +9,7 @@ www.techradar.com##.related-articles-block
 ! 9/9/2562 https://avpockiehd.com
 avpockiehd.com###banner-left
 avpockiehd.com##center
+avpockiehd.com##.right_box
 
 ! 9/9/2562 https://www.xxxthvip.com
 www.xxxthvip.com###block-banner
@@ -58,11 +59,11 @@ www.mommyporn.pro###topbar
 ||offer.alibaba.com^$all
 
 ! 15/10/2562 https://www.nanamovies.com
-||cdn.sagame66.com/video.mp4$media
-||1.bp.blogspot.com^$all
-||sagame77.com^$all
-||4.bp.blogspot.com^$all
-||record.income88.com^$all
+! ||cdn.sagame66.com/video.mp4$media
+! ||1.bp.blogspot.com^$all
+! ||sagame77.com^$all
+! ||4.bp.blogspot.com^$all
+! ||record.income88.com^$all
 www.nanamovies.com##.size-large.aligncentera
 www.nanamovies.com##[src="https://i.imgur.com/uuVWf1Q.gif"]
 www.nanamovies.com##[src="https://2.bp.blogspot.com/-nUHlkI3LdX4/XTX5CmNrD9I/AAAAAAAAGKE/WssV9LBstIMRiE9mXM1Y5rDxXPVAEzPHACLcBGAs/s1600/588ws.gif"]
@@ -1099,4 +1100,25 @@ xn--12cm9aqlbec6ec8e9c3adc18aqb.com##.bounce.animated.bc_rb_popup_container
 
 ! 2022-12-28 https://www.javbob.com
 www.javbob.com##center#bannermo550:nth-of-type(22)
+
+! 2023-04-01 https://7mmtv.sx
+||a.labadena.com/api/spots/427591$subdocument
+||a.labadena.com/api/spots/427592$subdocument
+||a.labadena.com/api/spots/427593$subdocument
+7mmtv.sx##.cpm_banner_900x250
+7mmtv.sx##.set_height_250.d-flex.mb-4.text-center.a-d-block
+
+! 2023-04-15 https://heedum.com
+heedum.com##.e3lan-below_header.e3lan > p
+heedum.com###widget_ads1 > div > [href="javascript:void(0)"] > [src="/wp-content/banner2022/floating_close_button.png"]
+heedum.com###widget_ads1
+
+! 2023-04-15 https://heedumjung.com
+heedumjung.com##.e3lan-below_header.e3lan > p
+heedumjung.com###banner-left
+
+! 2023-04-27 https://mawtoload.com
+mawtoload.com###banner-post
+mawtoload.com##[href="https://kingdom661.com"] > .lazyloaded.entered
+mawtoload.com##.footer-banner
 
