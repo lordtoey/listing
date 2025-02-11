@@ -1,12 +1,30 @@
 [{
     "name": "Google Search",
-    "url": "^https?://[^./]+\\.google(?:\\.[^./]{2,3}){1,2}/(?:c(?:se|ustom)|search|webhp|m|#)",
+    "url": "[^.]+\\.google(?:\\.[^./]{2,3}){1,2}/(?:c(?:se|ustom)|search|webhp|m|#)",
     "nextLink": "id('pnnext')|id('navbar navcnt nav')//td[span]/following-sibling::td[1]/a|id('nn')/parent::a",
     "pageElement": "id('rso')/div"
   },
   {
+    "name": "LOVESTORY & LOVEXLOVE",
+    "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
+    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
+  },
+  {
+    "name": "Thaisexseries",
+    "url": "^https?://thaisexseries\\.blogspot\\.com/[0-9]+/[0-9]+/.+\\.html",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
+  },
+  {
+    "name": "รวมเรื่องเสียวฟรี",
+    "url": "^https?://(รวมเรื่องเสียวฟรี|xn--72c2cefcbd0ae2a5a2het7ke7k|yedstorysex)\\.blogspot\\.com/[0-9]+/[0-9]+/.+\\.html",
+    "nextLink": "//a[@id='Blog1_blog-pager--older-link' and @class='blog-pager--older-link'][preceding-sibling::span[@class='pager-title-right']]",
+    "pageElement": "//div[@class='date-outer'] | //div[@class='entry' and div[@class='entrybody']] | //article[@class='post-outer-container']"
+  },
+  {
     "name": "Bloger",
-    "url": "^https?://.*\\.blogspot\\.com/|^https?://translate\\.google.*\\.com/.*\\.blogspot\\.com/.*",
+    "url": "^https?://.*\\.bblogspot\\.com/|[^.]+\\.google.*\\.com/.*\\.bblogspot\\.com/.*",
     "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
     "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
   },
@@ -47,16 +65,16 @@
     "pageElement": "//div[@id='allcontent']/div[@id='layout-search-content']"
   },
   {
+    "name": "pngtree.com",
+    "url": "^https?://(th\\.)?pngtree\\.com/",
+    "nextLink": "//div[@class='pageCont']/a[@class='nextPage ']",
+    "pageElement": "//div[@class='w1520 result-search']"
+  },
+  {
     "name": "rsload.net",
     "url": "^https?://rsload\\.net/",
     "nextLink": "//span[@class='pnext']/a[@id='nextlink' and @onclick='javascript:list_submit(2); return(false)']",
     "pageElement": "//main[@class='cont clearfix']/div[@id='dle-content']"
-  },
-  {
-    "name": "Goodreads",
-    "url": "^https?://www\\.goodreads\\.com/",
-    "nextLink": "//a[@rel='next']|//a[@class='next_page' and text()='next »']",
-    "pageElement": "//div[@class='mainContent ']/div[@class='mainContentFloat ']"
   },
   {
     "name": "nanamovies.com",
@@ -71,16 +89,22 @@
     "pageElement": "//div[@id='main' and @class='col620 clearfix']/div[@class='item-wrap clearfix']"
   },
   {
-    "name": "pngtree.com",
-    "url": "^https?://(th\\.)?pngtree\\.com/",
-    "nextLink": "//div[@class='pageCont']/a[@class='nextPage ']",
-    "pageElement": "//div[@class='w1520 result-search']"
-  },
-  {
     "name": "xn--l3c1a0a3b1c1b.com",
     "url": "^https?://xn--l3c1a0a3b1c1b\\.com/",
     "nextLink": "//a[@class='navPages'][preceding-sibling::strong]",
     "pageElement": "//div[@id='content_section']"
+  },
+  {
+    "name": "imagefap.com (pics, gallery)",
+    "url": "^https?://(?:www\\.)?imagefap\\.com/(?:pics/|gallery\\.php)",
+    "nextLink": "//a[@class='link3' and (text()=':: next ::')]",
+    "pageElement": "//div[@class='gallerylist']"
+  },
+  {
+    "name": "imagefap.com (showfavorites, showclubs)",
+    "url": "^https?://www\\.imagefap\\.com/(showfavorites|showclubs)\\.php",
+    "nextLink": "//a[(text()=':: next ::')]",
+    "pageElement": "//div[@id='main']/center/center/table/tbody/tr/td/table/tbody/tr/td/table[3]/preceding-sibling::node()"
   },
   {
     "name": "imagefap.com",
@@ -89,35 +113,28 @@
     "pageElement": "id('gallery')/form"
   },
   {
-    "name": "imagefap.com",
-    "url": "^https?://(?:www\\.)?imagefap\\.com/(?:pics/|gallery\\.php)",
-    "nextLink": "//a[@class='link3' and (text()=':: next ::')]",
-    "pageElement": "//div[@class='gallerylist']"
+    "name": "pixiv.net Bookmarks",
+    "url": "^https?://www\\.pixiv\\.net/en/users/[^/]+/bookmarks/.+",
+    "nextLink": "//a[preceding-sibling::button[@type='button' and @aria-current='true']]",
+    "pageElement": "//section[@class='sc-oUzgy sc-ptaXo bLyIPw']/ul[@class='_2WwRD0o _2WyzEUZ']|//main[@id='minip']/div[@id='list']|//div[@class='sc-1nr368f-2 bGUtlw']"
   },
   {
-    "name": "imagefap.com",
-    "url": "^https?://www\\.imagefap\\.com/(showfavorites|showclubs)\\.php",
-    "nextLink": "//a[(text()=':: next ::')]",
-    "pageElement": "//div[@id='main']/center/center/table/tbody/tr/td/table/tbody/tr/td/table[3]/preceding-sibling::node()"
-  },
-  {
-    "name": "pixiv.net",
-    "url": "^https?://(www\\.)?pixiv\\.net/",
-    "nextLink": "//div[@class='_1zRQ9vu']/a[@class='_2m8qrc7'][preceding-sibling::a[@class='_2m8qrc7 _3-MMeus']]",
-    "pageElement": "//section[@class='sc-oUzgy sc-ptaXo bLyIPw']/ul[@class='_2WwRD0o _2WyzEUZ']"
+    "name": "pixiv.net users",
+    "url": "^https?://www\\.pixiv\\.net/en/users/",
+    "nextLink": "//div[2]/div[1]/a[preceding-sibling::a[@class='inactive']]",
+    "pageElement": "//main[@id='minip']/div[@id='list']"
   },
   {
     "name": "pixiv.net php",
-    "url": "^https?://www\\.pixiv\\.net\/.+.php",
+    "url": "^https?://www\\.pixiv\\.net/.+\\.php",
     "nextLink": "a:contains('>>')|a:contains('>>')",
     "pageElement": "div[id^=illust_c]|//div[@class='contents-east']"
   },
   {
-    "name": "pixiv users",
-    "url": "^https?://www\\.pixiv\\.net\/en\/users\/",
-    "nextLink": "//div[2]/div[1]/a[preceding-sibling::a[@class='inactive']]",
-    "pageElement": "//main[@id='minip']/div[@id='list']",
-    "exampleUrl": "//main[@id='minip']/div[@id='list']"
+    "name": "pixiv.net",
+    "url": "^https?://www\\.pixiv\\.net/",
+    "nextLink": "//div[@class='_1zRQ9vu']/a[@class='_2m8qrc7'][preceding-sibling::a[@class='_2m8qrc7 _3-MMeus']]",
+    "pageElement": "//section[@class='sc-oUzgy sc-ptaXo bLyIPw']/ul[@class='_2WwRD0o _2WyzEUZ']"
   },
   {
     "name": "doujins.com",
@@ -253,6 +270,12 @@
     "pageElement": "//div[@class='td-pb-row']//div[@class='td-ss-main-content']"
   },
   {
+    "name": "AdultGamesOn",
+    "url": "^https?://adultgameson\\.com/",
+    "nextLink": "//a[@class='next page-numbers'][span[text()='Next']]",
+    "pageElement": "//div[@class='wpb_wrapper']/div[@id='us_grid_1']"
+  },
+  {
     "name": "ad-hentai.com",
     "url": "^https?://ad-hentai\\.com/",
     "nextLink": "//li[@class='the-next-page']/a[text()='»']|//a[@class='pages-nav-item'][preceding::li[@class='current']]",
@@ -308,7 +331,7 @@
   },
   {
     "name": "erofus.com (pic)",
-    "url": "^https?://www\\.erofus\\.com\/pic\/.+\/.+\/.+\/.*",
+    "url": "^https?://www\\.erofus\\.com/pic/[^/]+/[^/]+/[^/]+/.*",
     "nextLink": "//a[@id='picture-navigation-right']|//span[@class='glyphicon glyphicon-menu-right']",
     "pageElement": "//div[@id='picture-full']"
   },
@@ -392,7 +415,7 @@
   },
   {
     "name": "Miku-Doujin.com",
-    "url": "^https?://miku-doujin\\.com\/.+\/",
+    "url": "^https?://miku-doujin\\.com/.+/",
     "nextLink": "//li[@class='page-item']/a[@class='page-link' and text()='››']",
     "pageElement": "//div[@class='card']/div[@class='card-body no-padding']"
   },
@@ -400,8 +423,7 @@
     "name": "DoujinHere.com",
     "url": "^https?://doujinhere\\.com/",
     "nextLink": "//li[@class='page-item']/a[@class='page-link' and @rel='prev' and @aria-label='« Previous' and text()='‹']",
-    "pageElement": "//div[@class='row']//div[@id='doujin_l' and @class='row']",
-    "exampleUrl": "//li[@class='page-item']/a[@class='page-link' and @rel='next' and @aria-label='Next »' and text()='›']"
+    "pageElement": "//div[@class='row']//div[@id='doujin_l' and @class='row']"
   },
   {
     "name": "Doujin-XXX.com",
@@ -417,30 +439,33 @@
   },
   {
     "name": "InwDoujin.com",
-    "url": "^https?://lnwdoujin\\.com/",
+    "url": "^https?://linwdoujin\\.com/",
     "nextLink": "//li[@class='page-item ']/a[@class='next page-link' and text()='»']",
     "pageElement": "//div[@id='primary' and @class='col-md-8 content-area']"
+  },
+  {
+    "name": "เทพโดจิน",
+    "url": "^https?://linwdoujin\\.com/[0-9]+/",
+    "nextLink": "//a[@id='btn-img-loader' and @class='btn btn-primary btn-lg col-12 pop-ads mt-2']",
+    "pageElement": "//div[@class='entry-content']/div[@id='comic-reader-zone' and @class='comic_read_img1']"
   },
   {
     "name": "Ok-Doujin",
     "url": "^https?://ok-doujin\\.com/",
     "nextLink": "//a[@class='nextpostslink' and text()='»']",
-    "pageElement": "//div[@class='c-page']",
-    "exampleUrl": "//div[@class='row']"
+    "pageElement": "//div[@class='c-page']"
   },
   {
     "name": "OK Doujin",
     "url": "^https?://okdoujin\\.com/",
     "nextLink": "//li[@class='page-item']/a[preceding::li[@class='page-item active']]",
-    "pageElement": "//div[@class='container-full font-body']",
-    "exampleUrl": "https?://okdoujin.com/?page=2"
+    "pageElement": "//div[@class='container-full font-body']"
   },
   {
     "name": "HentaiEra",
     "url": "^https?://hentaiera\\.com/",
     "nextLink": "//li[@class='page-item']/a[@class='page-link' and text()='Next']",
-    "pageElement": "//div[@class='container']/div[@class='row galleries noflex']",
-    "exampleUrl": "https://hentaiera.com/tag/milf/?page=2"
+    "pageElement": "//div[@class='container']/div[@class='row galleries noflex']"
   },
   {
     "name": "Alpha-Hen.com",
@@ -455,75 +480,113 @@
     "pageElement": "//div[@class='row']/div[@id='misa-content' and @class='col-lg-9']"
   },
   {
+    "name": "ปกขาว",
+    "url": "^https?://thaiwhitebook\\.xyz/",
+    "nextLink": "//div[@class='nav-previous float-left']/a[text()=' Older Posts']",
+    "pageElement": "//div[@class='c-page__content']/div[@class='tab-content-wrap']"
+  },
+  {
     "name": "Sawstory.com",
     "url": "^https?://sawstory\\.com/",
     "nextLink": "//a[@class='next page-numbers' and text()='»']",
     "pageElement": "//main[@id='main' and @class='site-main']/div[@id='post-wrapper' and @class='post-wrapper clearfix']"
   },
   {
-    "name": "Storyincst.com",
-    "url": "^https?://www\\.storyincst\\.com/",
-    "nextLink": "//li[@class='next right']/a",
-    "pageElement": "//div[@class='hu-pad group']"
+    "name": "StoryIncst | Previous",
+    "url": "^https?://(www\\.|)sstoryincst\\.com/(tag/)?[ก-๙]+/page/[^/]+/",
+    "nextLink": "//ul[@class='post-nav group']/li[@class='previous']/a[@rel='prev']|//li[@class='prev left']/a",
+    "pageElement": "//div[@class='main-inner group']/main[@id='content' and @class='content']"
   },
   {
-    "name": "Storyblack.com",
+    "name": "StoryIncst | Next",
+    "url": "^https?://(www\\.|)storyincst\\.com/",
+    "nextLink": "//ul[@class='post-nav group']/li[@class='next']/a[@rel='next']|//li[@class='next right']/a",
+    "pageElement": "//div[@class='main-inner group']/main[@id='content' and @class='content']"
+  },
+  {
+    "name": "StoryBlack | Previous",
+    "url": "^https?://sstoryblack\\.com/",
+    "nextLink": "//ul[@class='post-nav group']/li[@class='previous']/a[@rel='prev']|//li[@class='prev left']/a",
+    "pageElement": "//div[@class='main-inner group']/main[@id='content' and @class='content']"
+  },
+  {
+    "name": "StoryBlack | Next",
     "url": "^https?://storyblack\\.com/",
-    "nextLink": "//li[@class='next right']/a",
-    "pageElement": "//div[@class='hu-pad group']"
+    "nextLink": "//ul[@class='post-nav group']/li[@class='next']/a[@rel='next']|//li[@class='next right']/a",
+    "pageElement": "//main[@id='content' and @class='content']"
   },
   {
-    "name": "kodpornx.com",
+    "name": "โคตรโป๊ | premium-santehnika.ru",
+    "url": "^https?://premium-santehnika\\.ru/",
+    "nextLink": "//a[@class='next page-numbers' and text()='Next']",
+    "pageElement": "//div[@id='content' and @class='container site-content']/div[@id='primary' and @class='vce-main-content']"
+  },
+  {
+    "name": "โคตรโป๊ | kodpornx.com",
     "url": "^https?://www\\.kodpornx\\.com/",
     "nextLink": "//nav[@id='vce-pagination' and @class='vce-load-more']/a[text()=' Load more']",
     "pageElement": "//div[@class='main-box-inside']/div[@class='vce-loop-wrap']"
   },
   {
-    "name": "XOnly ค้นหา",
+    "name": "XONLY | ค้นหา",
     "url": "^https?://xonly8\\.com/index\\.php\\?action=search2",
-    "nextLink": "//div[@class='pagesection']//a[@class='navPages'][preceding-sibling::strong]",
-    "pageElement": "//div[@id='content_section']/div[@id='main_content_section']",
-    "exampleUrl": "//strong[preceding-sibling::a[@class='navPages']]"
+    "nextLink": "//div[@class='pagelinks floatleft']/a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
+    "pageElement": "//div[@id='content_section']/div[@id='main_content_section']"
   },
   {
-    "name": "xonly8.com (profile)",
+    "name": "XONLY | profile",
     "url": "^https?://xonly8\\.com/index\\.php\\?action=profile.+",
-    "nextLink": "//a[@class='navPages'][preceding-sibling::strong]",
+    "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='main_content_section']/div[@id='admin_content']"
   },
   {
-    "name": "xonly8.com (action)",
+    "name": "XONLY | action",
     "url": "^https?://xonly8\\.com/index\\.php\\?action=.+",
-    "nextLink": "//a[@class='navPages'][preceding-sibling::strong]",
-    "pageElement": "//div[@id='main_content_section']/form[@method='post' and @name='topicForm']",
-    "exampleUrl": "//div[@id='content_section']/div[@id='main_content_section']|//div[@id='main_content_section']/form[@method='post' and @name='topicForm']"
+    "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
+    "pageElement": "//div[@id='main_content_section']/form[@method='post' and @name='topicForm']"
   },
   {
-    "name": "xonly8.com (index.php)",
+    "name": "XONLY | index.php",
     "url": "^https?://xonly8\\.com/index\\.php.+",
-    "nextLink": "//div[@class='pagelinks floatleft']/a[@class='navPages'][preceding-sibling::strong]",
-    "pageElement": "//div[@class='container']/div[@id='content_section']",
-    "exampleUrl": "//div[@id='main_content_section']/form[@method='post' and @name='topicForm']"
+    "nextLink": "//div[@class='pagelinks floatleft']/a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
+    "pageElement": "//div[@class='container']/div[@id='content_section']"
   },
   {
-    "name": "xonly8.com",
+    "name": "XONLY",
     "url": "^https?://xonly8\\.com/",
-    "nextLink": "//a[@class='navPages'][preceding-sibling::strong]",
-    "pageElement": "//form[@id='quickModForm' and @class='clear']/div[@id='messageindex' and @class='tborder topic_table']",
-    "exampleUrl": "xonly8.com (index.php)//div[@class='pagelinks floatleft']/a[@class='navPages'][preceding-sibling::strong]"
+    "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
+    "pageElement": "//form[@id='quickModForm' and @class='clear']/div[@id='messageindex' and @class='tborder topic_table']"
+  },
+  {
+    "name": "จีโฟกาย.คอม | ค้นหา",
+    "url": "^https?://www\\.g4guys\\.com/search\\.php.+",
+    "nextLink": "//div[@class='pg']/a[@class='nxt' and text()='ถัดไป']",
+    "pageElement": "//div[@class='mw']/div[@class='tl']"
   },
   {
     "name": "Story.เล่าเรื่องเสียว.com",
     "url": "^https?://story\\.xn--72c8cbhnqt2b5aq9gce9he\\.com/",
-    "nextLink": "//a[@class='navPages'][preceding-sibling::strong[@class='navPages active']]",
-    "pageElement": "//div[@id='main_content_section']",
-    "exampleUrl": "//div[@id='main_content_section']/div[@id='messageindex' and @class='tborder topic_table']"
+    "nextLink": "//div[@class='pagesection']/div[@class='pagelinks']/a[@class='navPages'][preceding-sibling::strong[@class='navPages active']]",
+    "pageElement": "//div[@id='main_content_section']"
   },
   {
     "name": "aunrealstory.com",
-    "url": "^https?://aunrealstory\\.com/",
+    "url": "^https?://(aunstory|aunrealstory)\\.com/",
     "nextLink": "//a[@class='nextpostslink' and text()='»']",
     "pageElement": "//div[@class='main']//div[@class='content']"
+  },
+  {
+    "name": "แตกในดอทคอม",
+    "url": "^https?://(taknai|teploivoda|infoavtopravo)\\.(com|ru)/",
+    "nextLink": "//li[@class='page-item d-none d-sm-block']/a[@class='page-link'][preceding::li[@class='page-item active']]|//a[@class='navPages'][preceding-sibling::strong[@class='navPages active']]",
+    "pageElement": "//div[@id='primary' and @class='content-area']/div[@class='row']",
+    "insertBefore": "//div[@class='entry-footer']/nav[@aria-label='Page navigation' and @role='navigation']"
+  },
+  {
+    "name": "readAwrite รี้ดอะไร้ต์",
+    "url": "^https?://www\\.readawrite\\.com/\\?action=my_page&tab=shelfArticle",
+    "nextLink": "//a/button[@class='btn btn-xs btnBorderBlue' and @title='หน้าถัดไป']",
+    "pageElement": "//div[@id='shelfArticle' and @class='tab-pane fade in active horizontal']/div[@class='tab-content showInlineBlock width100Percent']"
   },
   {
     "name": "tunwalai.com",
@@ -538,6 +601,18 @@
     "pageElement": "//div[@class='bodyarea clear']/div[@class='watched']"
   },
   {
+    "name": "Goodreads",
+    "url": "^https?://www\\.goodreads\\.com/",
+    "nextLink": "//a[@rel='next']|//a[@class='next_page' and text()='next »']",
+    "pageElement": "//div[@class='mainContent ']/div[@class='mainContentFloat ']"
+  },
+  {
+    "name": "Smashwords",
+    "url": "^https?://www\\.smashwords\\.com/",
+    "nextLink": "//li[@class='page-item']/a[@class='page-link'][preceding::li[@class='page-item active']]",
+    "pageElement": "//div[@id='pageContentFull']/div[@id='pageCenterContent']"
+  },
+  {
     "name": "r18.com",
     "url": "^https?://www\\.r18\\.com/",
     "nextLink": "//li[@class='next']/a",
@@ -547,8 +622,7 @@
     "name": "MGS",
     "url": "^https?://www\\.mgstage\\.com/",
     "nextLink": "//a[@class='page'][preceding-sibling::strong[@class='page']]",
-    "pageElement": "//div[@id='container']/article[@id='center_column']",
-    "exampleUrl": "//div[@id='container' and @class='two_column_leftmenu']/article[@id='center_column']"
+    "pageElement": "//div[@id='container']/article[@id='center_column']"
   },
   {
     "name": "rakuten.co.jp",
@@ -632,15 +706,13 @@
     "name": "Javrave.club",
     "url": "^https?://javrave\\.club/",
     "nextLink": "//a[@class='page larger'][preceding-sibling::span[@class='current']]",
-    "pageElement": "//div[@class='cactus-listing-wrap switch-view-enable']|//div[@class='cactus-listing-wrap actor-listing']|//div[@class='cactus-listing-wrap single-actor']|//div[@class='single-page-content']",
-    "exampleUrl": "//div[@class='main-content-col-body']/div[@class='cactus-listing-wrap switch-view-enable']|//div[@class='main-content-col-body']/div[@class='cactus-listing-wrap actor-listing']|//div[@class='main-content-col-body']/div[@class='cactus-listing-wrap single-actor']|//div[@class='main-content-col-body']/div[@class='single-page-content']"
+    "pageElement": "//div[@class='cactus-listing-wrap switch-view-enable']|//div[@class='cactus-listing-wrap actor-listing']|//div[@class='cactus-listing-wrap single-actor']|//div[@class='single-page-content']"
   },
   {
     "name": "Javraveclub.com",
     "url": "^https?://javraveclub\\.com/",
     "nextLink": "//a[@class='page larger'][preceding-sibling::span[@class='current']]",
-    "pageElement": "//div[@class='cactus-listing-wrap switch-view-enable']|//div[@class='cactus-listing-wrap actor-listing']|//div[@class='cactus-listing-wrap single-actor']|//div[@class='single-page-content']",
-    "exampleUrl": "//div[@class='main-content-col-body']/div[@class='cactus-listing-wrap switch-view-enable']|//div[@class='main-content-col-body']/div[@class='cactus-listing-wrap actor-listing']|//div[@class='main-content-col-body']/div[@class='cactus-listing-wrap single-actor']|//div[@class='main-content-col-body']/div[@class='single-page-content']"
+    "pageElement": "//div[@class='cactus-listing-wrap switch-view-enable']|//div[@class='cactus-listing-wrap actor-listing']|//div[@class='cactus-listing-wrap single-actor']|//div[@class='single-page-content']"
   },
   {
     "name": "Javrave.club",
@@ -685,24 +757,28 @@
     "pageElement": "//div[@id='primary' and @class='site-content']/div[@id='content' and @role='main']"
   },
   {
+    "name": "AVDBS | Actor",
+    "url": "^https?://www\\.avdbs\\.com/menu/",
+    "nextLink": "//a[@class='no'][preceding-sibling::span[@class='sel']]",
+    "pageElement": "//div[@id='content']/ul[@class='lst']"
+  },
+  {
     "name": "AVDBS",
     "url": "^https?://www\\.avdbs\\.com/",
     "nextLink": "//a[@class='no'][preceding-sibling::span[@class='sel']]",
-    "pageElement": "//div[@id='dvd_lst']",
-    "exampleUrl": "//div[@id='dvd_lst']/div[@class='album_vw']"
+    "pageElement": "//div[@id='dvd_lst']"
+  },
+  {
+    "name": "JAVLibrary.com (previous)",
+    "url": "^https?://www\\.javlibrary\\.com/(ja|en|en|tw)/.+&page=.+",
+    "nextLink": "//a[@class='page prev']|//a[@class='page prev' and text()='Previous Page']",
+    "pageElement": "//div[@id='rightcolumn']|id['rightcolumn']/div[@class='videothumblist']|id['rightcolumn']/div[@class='starbox']"
   },
   {
     "name": "JAVLibrary.com",
     "url": "^https?://www\\.javlibrary\\.com/(ja|en|en|tw)/(?!videocomments).*",
-    "nextLink": "//span[@class='page current']/following-sibling::a[1]|//div[@class='page_selector']/a[@class='page next' and text()='Next Page']",
+    "nextLink": "//a[@class='page'][preceding-sibling::span[@class='page current']]|//a[@class='page next' and text()='Next Page']",
     "pageElement": "//div[@id='rightcolumn']|id['rightcolumn']/div[@class='videothumblist']|id['rightcolumn']/div[@class='starbox']"
-  },
-  {
-    "name": "JAVLibrary.com (previous)",
-    "url": "^https?://www\\.jjavlibrary\\.com/(ja|en|en|tw)/(?!videocomments).*",
-    "nextLink": "//a[@class='page prev']",
-    "pageElement": "//div[@id='rightcolumn']|id['rightcolumn']/div[@class='videothumblist']|id['rightcolumn']/div[@class='starbox']",
-    "exampleUrl": "//a[@class='page'][following-sibling::span[@class='page current']]"
   },
   {
     "name": "Javdb.com",
@@ -762,14 +838,25 @@
     "name": "3xplanet.net",
     "url": "^https?://3xplanet\\.net/",
     "nextLink": "//a[@aria-label='next-page']",
-    "pageElement": "//div[@class='td-ss-main-content']",
-    "exampleUrl": "//div[@class='td-pb-row']"
+    "pageElement": "//div[@class='td-ss-main-content']"
   },
   {
     "name": "incezt.net",
     "url": "^https?://incezt\\.net/",
     "nextLink": "//li[@class='rarr']/a",
     "pageElement": "//div[@id='content']"
+  },
+  {
+    "name": "My Taboo Previous",
+    "url": "^https?://mytaboo\\.net/category/[^/]+/page/[0-9]+",
+    "nextLink": "//a[text()='‹ Previous']",
+    "pageElement": "//div[@class='page-wrapper archive-wrapper']/div[@class='gdl-page-float-left']"
+  },
+  {
+    "name": "My Taboo",
+    "url": "^https?://mytaboo\\.net/",
+    "nextLink": "//a[text()='Next ›']",
+    "pageElement": "//div[@class='page-wrapper archive-wrapper']/div[@class='gdl-page-float-left']"
   },
   {
     "name": "pornbraze.com",
@@ -802,6 +889,12 @@
     "pageElement": "//div[@class='container']/div[@class='row']|//div[@class='search-result']/div[@class='row']"
   },
   {
+    "name": "vjav.com (models)",
+    "url": "^https?://(member\\.)?vjav\\.com/models/.*",
+    "nextLink": "//li[@class='page']/a[@data-action='ajax' and @data-parameters='sort_by:age;page:0' and @data-container-id='list_models2_models_list_pagination' and @data-block-id='list_models2_models_list'][preceding::li[@class='page-current']]",
+    "pageElement": "//div[@id='list_models2_models_list']//div[@class='list-models']"
+  },
+  {
     "name": "vjav.com",
     "url": "^https?://vjav\\.com/",
     "nextLink": "//li[@class='next']/a[starts-with(@href, '?age_from=35&sort_by=age') and text()='Next']|//li[@class='next']/a[@data-action='ajax' and @data-container-id='list_models2_models_list_pagination' and @data-block-id='list_models2_models_list' and text()='Next']|//li[@class='page']/a[@data-action='ajax' and @data-container-id='list_models2_models_list_pagination' and @data-block-id='list_models2_models_list'][following::li[@class='next']]|//ul/li[@class='next']/a[@data-action='ajax' and @data-parameters='sort_by:age;page:0' and @data-container-id='list_models2_models_list_pagination' and @data-block-id='list_models2_models_list' and text()='Next']",
@@ -815,14 +908,8 @@
     "pageElement": "//div[@id='list_models2_models_list']/div[@class='box']/div[@class='list-models']"
   },
   {
-    "name": "vjav.com (models)",
-    "url": "^https?://(member\\.)?vjav\\.com\/models\/.*",
-    "nextLink": "//li[@class='page']/a[@data-action='ajax' and @data-parameters='sort_by:age;page:0' and @data-container-id='list_models2_models_list_pagination' and @data-block-id='list_models2_models_list'][preceding::li[@class='page-current']]",
-    "pageElement": "//div[@id='list_models2_models_list']//div[@class='list-models']"
-  },
-  {
     "name": "Javmost",
-    "url": "^https?://www5?\\.jav(m|p)ost\\.(com|net)/",
+    "url": "^https?://(www5|www)\\.(javmost|javpost)\\.(com|net)/",
     "nextLink": "//li/a[preceding::li[@class='active']/a]",
     "pageElement": "//div[@id='content' and @class='content']/div[@id='content-update' and @class='row']"
   },
@@ -839,6 +926,12 @@
     "pageElement": "//*[@id='wrapper']/div[2]/div[2]"
   },
   {
+    "name": "Javhub.net (Previous)",
+    "url": "^https?://javhub\\.net/.+\\?page=[0-9]+",
+    "nextLink": "//li/a[@aria-label='Previous']|//a[text()='Previous']",
+    "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
+  },
+  {
     "name": "Javhub.net (Search)",
     "url": "^https?://javhub\\.net/search/",
     "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']",
@@ -851,29 +944,16 @@
     "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
   },
   {
-    "name": "Javhub.net (Previous)",
-    "url": "^https?://jjavhub\\.net/",
-    "nextLink": "//li/a[@aria-label='Previous']|//a[text()='Previous']",
-    "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
-  },
-  {
     "name": "7mmtv",
     "url": "^https?://7mmtv\\.(tv|sx)/",
     "nextLink": "//li/a[preceding::li[@class='page-item current']]",
-    "pageElement": "//section[@class='latest-korean-section pb_50 pt_50 ']"
-  },
-  {
-    "name": "7mmtv (.+)",
-    "url": "^https?://7mmtv\\.(tv|sx)/",
-    "nextLink": "//li/a[preceding::li[@class='page-item current']]",
-    "pageElement": "//div[@class='container']/div[@class='block mb-4 mb-lg-5']"
+    "pageElement": "//section[@class='latest-korean-section pb_50 pt_50 ']|//div[@class='container']/div[@class='block mb-4 mb-lg-5']"
   },
   {
     "name": "7mmtv.sx",
     "url": "^https?://7mmtv\\.sx/",
     "nextLink": "//li[@class='page-item previous-next']//a[text()='>']",
-    "pageElement": "//div[@class='block mb-4 mb-lg-5']",
-    "exampleUrl": "https://7mmtv.sx/en/2.html"
+    "pageElement": "//div[@class='block mb-4 mb-lg-5']"
   },
   {
     "name": "hpjav.tv",
@@ -900,23 +980,28 @@
     "pageElement": "//div[@id='namevn']//section[@class='tn-boxsty']"
   },
   {
-    "name": "Jav.guru",
+    "name": "Jav Guru | ACTRESS",
+    "url": "^https?://jav\\.guru/jav-actress-list/",
+    "nextLink": "//a[@class='next page-numbers' and text()='next']|//a[@class='page-numbers'][preceding-sibling::span[@class='page-numbers current' and @aria-current='page']]",
+    "pageElement": "//div[@id='primary' and @class='content-area']/main[@id='main' and @class='site-main']"
+  },
+  {
+    "name": "Jav Guru",
     "url": "^https?://jav\\.guru/",
-    "nextLink": "//a[@class='page larger'][preceding-sibling::span[@class='current']]",
-    "pageElement": "//div[@id='primary' and @class='content-area']/main[@id='main' and @class='site-main']",
-    "exampleUrl": "//main[@id='main' and @class='site-main']"
+    "nextLink": "//span[@class='current' and @aria-current='page']/following-sibling::a[1]|//a[@class='page larger'][preceding-sibling::span[@class='current' and @aria-current='page']]",
+    "pageElement": "//div[@id='primary' and @class='content-area']/main[@id='main' and @class='site-main']"
+  },
+  {
+    "name": "JAVHD.Today (Releaseday) Previous",
+    "url": "^https?://(javhdz|javhd)\\.today/[^/]+/releaseday/[0-9]+/",
+    "nextLink": "//a[@class='prevnext' and text()='prev ']",
+    "pageElement": "//div[@id='content' and @class='row']/div[@class='col-xs-12 col-sm-12 col-md-12']"
   },
   {
     "name": "JAVHD.Today",
-    "url": "^https?://(javhdz?\\.today|javhat\\.tv)/",
+    "url": "^https?://(javhdz|javhd)\\.today/",
     "nextLink": "//a[@class='prevnext' and text()='next ']",
     "pageElement": "//div[@class='col-md-12']/div[@class='content-channel']|//div[@class='col-md-12']/div[@class='content-model']|//div[@class='panel panel-default']/div[@class='panel-body panel-padding']|//div[@class='panel panel-default']/div[@class='panel-body no-padding']"
-  },
-  {
-    "name": "JAVHD.Today (Search)",
-    "url": "^https?://(javhdz?\\.today|javhat\\.tv)\/search\/video\/\\?s=.+",
-    "nextLink": "//a[@class='prevnext']",
-    "pageElement": "//div[@id='content' and @class='row']"
   },
   {
     "name": "Javseen.tv",
@@ -1053,10 +1138,9 @@
   },
   {
     "name": "avcollectors.com",
-    "url": "^http://www\\.aavcollectors\\.com/",
+    "url": "^https?://www\\.avcollectors\\.com/",
     "nextLink": "//a[@class='navPages'][preceding-sibling::b]",
-    "pageElement": "//div[@id='bodyarea']/form[@id='quickModForm' and @name='quickModForm']",
-    "exampleUrl": "//td[@class='middletext']/a[@class='navPages'][preceding-sibling::b]"
+    "pageElement": "//div[@id='bodyarea']/form[@id='quickModForm' and @name='quickModForm']"
   },
   {
     "name": "av-th.net",
@@ -1086,15 +1170,13 @@
     "name": "AVSOFIA.COM",
     "url": "^https?://avsofia\\.com/",
     "nextLink": "//li/a[@class='page-link'][preceding::li[@class='page-item active']]",
-    "pageElement": "//div[@class='video-loop']",
-    "exampleUrl": "//a[@class='next page-link' and text()='»']"
+    "pageElement": "//div[@class='video-loop']"
   },
   {
     "name": "AVKUY.COM",
     "url": "^https?://(www\\.)?(avkuy|javkuy)\\.(com|net)/",
     "nextLink": "//a[@class='nextpostslink']|//a[@class='page larger'][preceding-sibling::span[@class='current']]|//li/a[@class='page larger'][preceding::li[@class='active']]",
-    "pageElement": "//div[@class='container']/div[@class='main-content main-category']",
-    "exampleUrl": "//div[@class='container']/div[@class='main-content'']"
+    "pageElement": "//div[@class='container']/div[@class='main-content main-category']"
   },
   {
     "name": "AVKUY.COM Reverse",
@@ -1118,29 +1200,31 @@
     "name": "Javtai.com",
     "url": "^https?://www\\.javtai\\.com/",
     "nextLink": "//a[preceding-sibling::a[@class='active']]",
-    "pageElement": "//div[@class='album py-5 bg-light']/div[@class='container']",
-    "exampleUrl": "//a[text()='Next']|//div[@class='container']/div[@class='row']"
+    "pageElement": "//div[@class='album py-5 bg-light']/div[@class='container']"
   },
   {
     "name": "ThisAv",
     "url": "^https?://(missav|thisav)\\.com/",
     "nextLink": "//a[@rel='next']|//a[@rel='next' and @aria-label='pagination.next']",
-    "pageElement": "//div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']",
-    "exampleUrl": "//div[1]/div[3]|//div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']|//div[@class='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5']"
+    "pageElement": "//div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']"
   },
   {
     "name": "MissAV.com",
     "url": "^https?://missav\\.com/",
     "nextLink": "//a[preceding-sibling::span]",
-    "pageElement": "//div/div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']",
-    "exampleUrl": "https?://missav.com/dm25/en/genres/Mother?page=2"
+    "pageElement": "//div/div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']"
   },
   {
     "name": "nJAV.tv",
     "url": "^https?://njav\\.tv/",
-    "nextLink": "//li[@class='page-item']/a[@class='page-link']|//li[@class='page-item']/a[preceding::li[@class='page-item active']]",
-    "pageElement": "//div[@id='page-list' and @class='container']",
-    "exampleUrl": "//div[@id='page-list' and @class='container']/section[@class='mb-5']"
+    "nextLink": "//a[@class='page-link' and @rel='next' and @aria-label='Next »' and text()='›']|//li[@class='page-item']/a[preceding::li[@class='page-item active']]",
+    "pageElement": "//section[@class='mb-5']"
+  },
+  {
+    "name": "123AV.com",
+    "url": "^https?://123av\\.com/",
+    "nextLink": "//a[@class='page-link' and @rel='next' and @aria-label='Next »' and text()='›']|//li[@class='page-item']/a[preceding::li[@class='page-item active']]",
+    "pageElement": "//section[@class='mb-5']"
   },
   {
     "name": "Sexuria.com",
@@ -1284,8 +1368,7 @@
     "name": "maturetube.com",
     "url": "^https?://www\\.maturetube\\.com/",
     "nextLink": "//a[@aria-label='Next Page']",
-    "pageElement": "//div[@class='cards']/div[@class='cards-container']",
-    "exampleUrl": "//div[@class='cards']"
+    "pageElement": "//div[@class='cards']/div[@class='cards-container']"
   },
   {
     "name": "asianpornmovies.com",
@@ -1315,8 +1398,7 @@
     "name": "heymilf.com",
     "url": "^https?://heymilf\\.com/",
     "nextLink": "//a[@class='next navi paging' and @title='Next' and text()='Next ▸']",
-    "pageElement": "//div[@class='center']/div[@class='thumbs movies_items']|//div[@class='center']/div[@class='thumbs2 categories_items']|//div[@class='center']/div[@class='thumbs2 models_items']",
-    "exampleUrl": ""
+    "pageElement": "//div[@class='center']/div[@class='thumbs movies_items']|//div[@class='center']/div[@class='thumbs2 categories_items']|//div[@class='center']/div[@class='thumbs2 models_items']"
   },
   {
     "name": "mypornsnap.top",
@@ -1367,10 +1449,10 @@
     "pageElement": "//div[@class='leftC']/div[@class='filmborder']"
   },
   {
-    "name": "aoxx69.com",
+    "name": "AOXX69",
     "url": "^https?://www\\.aoxx69\\.(com|net)/",
-    "nextLink": "//li[@class='page-item next']/a[@class='page-link' and text()='》']",
-    "pageElement": "//div[@id='p0']/div[@class='video_list']|//div[@class='short-video-list-index']/div[@class='video_list']"
+    "nextLink": "//li[@class='page-item']/a[@class='page-link'][preceding::li[@class='page-item active']]|//li[@class='page-item next']/a[@class='page-link' and text()='》']",
+    "pageElement": "//main/div[@class='video-list-index']|//main/div[@class='site-search']"
   },
   {
     "name": "ezjav.com",
@@ -1388,7 +1470,7 @@
     "name": "Javmama.me",
     "url": "^https?://javmama\\.me/",
     "nextLink": "//a[@class='next page-numbers' and text()='Next »']",
-    "pageElement": "//div[@id='content']/div[@class='postsbody']"
+    "pageElement": "//div[@id='content']/div[@class='postsbACody']"
   },
   {
     "name": "xjav.online",
@@ -1400,14 +1482,19 @@
     "name": "Sextb.net",
     "url": "^https?://sextb\\.(net|xyz)/",
     "nextLink": "//a[text()='Next ›'][preceding::a[@class='current']]|//a[text()='»'][span[text()='Next ']]|//a[text()='Next ›']",
-    "pageElement": "//div[@class='container']/section[@class='tray all']|//div[@class='container']",
-    "exampleUrl": "//a[text()='»'][span[text()='Next ']]|//a[text()='Next ›']|//a[text()='Next ›'][preceding::a[@class='current']]"
+    "pageElement": "//div[@class='container']/section[@class='tray all']|//div[@class='container']"
   },
   {
-    "name": "Jav-angel.net",
+    "name": "JAV.Land",
+    "url": "^https?://jav\\.land/",
+    "nextLink": "//a[text()='»']",
+    "pageElement": "//div[@class='row']/div[@class='k-right']"
+  },
+  {
+    "name": "Jav Angel",
     "url": "^https?://jav-angel\\.net/",
     "nextLink": "//a[@aria-label='next-page']",
-    "pageElement": "//div[@class='wpb_wrapper']"
+    "pageElement": "//div[@class='vc_column tdi_53  wpb_column vc_column_container tdc-column td-pb-span12']|//div[@class='td-main-content-wrap td-container-wrap']"
   },
   {
     "name": "Jav-vr.net",
@@ -1502,7 +1589,7 @@
   {
     "name": "heedum|heedumjung",
     "url": "^https?://(heedum|heedumjung)\\.com/",
-    "nextLink": "//a[@class='page'][preceding-sibling::span[@class='current']]",
+    "nextLink": "//a[@class='page'][preceding-sibling::span[@class='current']]|//span[@id='tie-next-page']/a[text()='»']",
     "pageElement": "//div[@id='main-content' and @class='container']/div[@class='content']"
   },
   {
@@ -1518,24 +1605,45 @@
     "pageElement": "div[@class='models-page']/div[@class='listing']"
   },
   {
+    "name": "Heavy-R",
+    "url": "^https?://www\\.heavy-r\\.com/",
+    "nextLink": "//a[@class='nopopoff' and text()='Next']",
+    "pageElement": "//div[@class='container']/div[@class='row display-flex']"
+  },
+  {
     "name": "xHamster",
-    "url": "^https?://[^.]+\\.xhamster\\.com/",
+    "url": "^https?://([^.]+\\.)?(xhamster|xhamster2|xhamster3|xhchannel|xhofficial)\\.[^/]+/",
     "nextLink": "//div[@class='prev-next-list-button']/a[@class='prev-next-list-link prev-next-list-link--next']|//li[@class='next']/a[@data-page='next']",
-    "pageElement": "//div[contains(concat(' ', normalize-space(@class), ' '), ' mixed-section ') and contains(concat(' ', normalize-space(@class), ' '), ' index-videos ')]|//section[contains(concat(' ', normalize-space(@class), ' '), ' index-videos ') and contains(concat(' ', normalize-space(@class), ' '), ' mixed-section ')]|//div[@class='width-wrap']",
-    "exampleUrl": "//main[@class='pages-category width-wrap']//section[contains(concat(' ', normalize-space(@class), ' '), ' index-videos ') and contains(concat(' ', normalize-space(@class), ' '), ' mixed-section ')]|//div[@class='main-wrap']/div[@class='width-wrap']"
+    "pageElement": "//div[contains(concat(' ', normalize-space(@class), ' '), ' mixed-section ') and contains(concat(' ', normalize-space(@class), ' '), ' index-videos ')]|//section[contains(concat(' ', normalize-space(@class), ' '), ' index-videos ') and contains(concat(' ', normalize-space(@class), ' '), ' mixed-section ')]|//div[@class='width-wrap']"
+  },
+  {
+    "name": "SpankBang",
+    "url": "^https?://([^.]+\\.)?spankbang\\.com/",
+    "nextLink": "//li[@class='next']/a",
+    "pageElement": "//main[@class='main-container']/div[1]"
   },
   {
     "name": "Javbangers",
     "url": "^https?://www\\.javbangers\\.com/",
     "nextLink": "//li[@class='page']/a[@data-action='ajax'][preceding::li[@class='page-current']]",
-    "pageElement": "//div[@class='main-container']",
-    "exampleUrl": "//div[@class='main-container']|//div[@id='list_videos_common_videos_list']|//div[@id='list_videos_latest_videos_list']|//div[@id='list_videos_videos_list_search_result']|//div[@id='list_playlists_common_playlists_list']|//li[@class='next']/a[@data-action='ajax']"
+    "pageElement": "//div[@class='main-container']"
   },
   {
     "name": "Bigojav",
     "url": "^https?://bigojav\\.com/",
     "nextLink": "//a[@rel='next' and text()='→']",
-    "pageElement": "//div[@class='row']/div[@class='col-xs-12 col-sm-8 col-sm-8-sp']",
-    "exampleUrl": "https://bigojav.com/"
+    "pageElement": "//div[@class='row']/div[@class='col-xs-12 col-sm-8 col-sm-8-sp']"
+  },
+  {
+    "name": "PlayVids",
+    "url": "^https?://www\\.playvids\\.com/",
+    "nextLink": "//a[@class='next' and text()='Next']",
+    "pageElement": "//div[@class='section-wrapper']/div[@class='container']"
+  },
+  {
+    "name": "iPornTv",
+    "url": "^https?://iporntv\\.net/",
+    "nextLink": "//a[@class='now']/following-sibling::a",
+    "pageElement": "//div[@class='mainbox']"
   }
 ]
