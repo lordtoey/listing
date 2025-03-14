@@ -5,9 +5,21 @@
     "pageElement": "id('rso')/div"
   },
   {
+    "name": "LOVESTORY & LOVEXLOVE | archive.hml",
+    "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/.+\\.html.*",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
+  },
+  {
     "name": "LOVESTORY & LOVEXLOVE | blog-page.hml",
-    "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html",
-    "nextLink": "//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link' and @class='blog-pager-older-link']",
+    "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
+  },
+  {
+    "name": "LOVESTORY & LOVEXLOVE | Search",
+    "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/search\\?.+",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
@@ -23,6 +35,12 @@
     "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
   },
   {
+    "name": "เรื่องเสียวครอบครัว Sex Family 69",
+    "url": "^https?://sexfamily69\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
+  },
+  {
     "name": "รวมเรื่องเสียวฟรี",
     "url": "^https?://(รวมเรื่องเสียวฟรี|xn--72c2cefcbd0ae2a5a2het7ke7k|yedstorysex)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html",
     "nextLink": "//a[@id='Blog1_blog-pager--older-link' and @class='blog-pager--older-link'][preceding-sibling::span[@class='pager-title-right']]",
@@ -30,9 +48,15 @@
   },
   {
     "name": "Bloger",
-    "url": "^https?://.*\\.bblogspot\\.com/|[^.]+\\.google.*\\.com/.*\\.bblogspot\\.com/.*",
+    "url": "[^.]+\\.bblogspot\\.com/|[^.]+\\.google.*\\.com/[^.]+\\.bblogspot\\.com/.*",
     "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
     "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
+  },
+  {
+    "name": "Boy-Seed-Online | blog-page.hml",
+    "url": "^https?://boy-seed-online\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
     "name": "GitHub",
@@ -535,9 +559,9 @@
   },
   {
     "name": "XONLY | ค้นหา",
-    "url": "^https?://xonly8\\.com/index\\.php\\?action=search2",
-    "nextLink": "//div[@class='pagelinks floatleft']/a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
-    "pageElement": "//div[@id='content_section']/div[@id='main_content_section']"
+    "url": "^https?://xonly8\\.com/index\\.php\\?action=search.+",
+    "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
+    "pageElement": "//div[@id='content_section']"
   },
   {
     "name": "XONLY | profile",
@@ -662,10 +686,10 @@
     "pageElement": "//div[@id='right']/div[@id='center2']|//div[@id='right'][div[@class='paragraph']]"
   },
   {
-    "name": "takara-tv",
+    "name": "TAKARA VISUAL",
     "url": "^https?://www\\.takara-tv\\.jp/",
-    "nextLink": "//div[@class='pagemenu']/a[@title='next page']",
-    "pageElement": "//div[@id='right']/div[@id='area']"
+    "nextLink": "//div[@class='paragraph']/div[@class='pagemenu' and @align='right']/a[@title='next page']",
+    "pageElement": "//div[@id='left']/div[@id='area']"
   },
   {
     "name": "porn.com",
@@ -783,13 +807,13 @@
   },
   {
     "name": "JAVLibrary.com (previous)",
-    "url": "^https?://www\\.javlibrary\\.com/(ja|en|en|tw)/.+&page=.+",
+    "url": "^https?://www\\.javlibrary\\.com/(ja|cn|en|tw)/.+&page=.+",
     "nextLink": "//a[@class='page prev']|//a[@class='page prev' and text()='Previous Page']",
     "pageElement": "//div[@id='rightcolumn']|id['rightcolumn']/div[@class='videothumblist']|id['rightcolumn']/div[@class='starbox']"
   },
   {
     "name": "JAVLibrary.com",
-    "url": "^https?://www\\.javlibrary\\.com/(ja|en|en|tw)/(?!videocomments).*",
+    "url": "^https?://www\\.javlibrary\\.com/(ja|cn|en|tw)/(?!videocomments).*",
     "nextLink": "//a[@class='page'][preceding-sibling::span[@class='page current']]|//a[@class='page next' and text()='Next Page']",
     "pageElement": "//div[@id='rightcolumn']|id['rightcolumn']/div[@class='videothumblist']|id['rightcolumn']/div[@class='starbox']"
   },
@@ -1464,8 +1488,8 @@
   {
     "name": "AOXX69",
     "url": "^https?://www\\.aoxx69\\.(com|net)/",
-    "nextLink": "//li[@class='page-item']/a[@class='page-link'][preceding::li[@class='page-item active']]|//li[@class='page-item next']/a[@class='page-link' and text()='》']",
-    "pageElement": "//main/div[@class='video-list-index']|//main/div[@class='site-search']"
+    "nextLink": "//li[@class='page-item next']/a|//li[@class='page-item']/a[preceding::li[@class='page-item active']]",
+    "pageElement": "//main[@role='main']/div[@class='video-list-index']|//main[@role='main']/div[@class='site-search']"
   },
   {
     "name": "ezjav.com",
