@@ -1132,6 +1132,12 @@
     "pageElement": "//article/div[@class='pst-cls nfl']"
   },
   {
+    "name": "BestJavPorn",
+    "url": "^https?://www\\.bestjavporn\\.com/",
+    "nextLink": "//li/a[@class='inactive'][preceding::li/a[@class='current']]",
+    "pageElement": "//div[@id='content' and @class='site-content row']/div[@id='primary' and @class='content-area ']"
+  },
+  {
     "name": "fbjav.com",
     "url": "^https?://fbjav\\.com/",
     "nextLink": "//li/a[@class='nextpostslink' and @rel='next' and text()='»']",
