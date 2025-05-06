@@ -5,15 +5,27 @@
     "pageElement": "id('rso')/div"
   },
   {
+    "name": "Bloger",
+    "url": "[^.]+\\.bblogspot\\.com/|[^.]+\\.google.*\\.com/[^.]+\\.bblogspot\\.com/.*",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
+    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
+  },
+  {
+    "name": "Internet Archive | Bloger Newer",
+    "url": "^https?://web\\.archive\\.org/web/[^/]+/[^.]+\\.blogspot\\.com/.*",
+    "nextLink": "//div[@id='blog-pager' and @class='blog-pager']/span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link' and @class='blog-pager-older-link']",
+    "pageElement": "//div[@class='columns fauxcolumns']"
+  },
+  {
     "name": "LOVESTORY & LOVEXLOVE | archive.hml",
     "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/.+\\.html.*",
-    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
     "name": "LOVESTORY & LOVEXLOVE | blog-page.hml",
     "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
-    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
@@ -47,16 +59,40 @@
     "pageElement": "//div[@class='date-outer']|//div[@class='entry' and div[@class='entrybody']]|//article[@class='post-outer-container']"
   },
   {
-    "name": "Bloger",
-    "url": "[^.]+\\.bblogspot\\.com/|[^.]+\\.google.*\\.com/[^.]+\\.bblogspot\\.com/.*",
-    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
-    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
-  },
-  {
     "name": "Boy-Seed-Online | blog-page.hml",
     "url": "^https?://boy-seed-online\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
     "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
+  },
+  {
+    "name": "เรื่องเสียว, อ่านเรื่องเสียวๆ | blog-page.hml",
+    "url": "^https?://(xn--72c8cbsnq2dm3fe|xn--72c9a2acwqrc6b9as0ie2graf)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
+    "nextLink": "//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link' and @class='blog-pager-newer-link' and @title='บทความใหม่กว่า']",
+    "pageElement": "//div[@id='outer-wrapper']/div[@id='content-wrapper']"
+  },
+  {
+    "name": "เรื่องเสียว, อ่านเรื่องเสียวๆ | Label",
+    "url": "^https?://(xn--72c8cbsnq2dm3fe|xn--72c9a2acwqrc6b9as0ie2graf)\\.blogspot\\.com/search/label/.+",
+    "nextLink": "//div[@class='showpageArea']/span[@class='showpage']/a[text()='Next']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link' and @class='blog-pager-newer-link' and @title='บทความใหม่กว่า']",
+    "pageElement": "//div[@id='outer-wrapper']/div[@id='content-wrapper']"
+  },
+  {
+    "name": "!เรื่องเสียว, อ่านเรื่องเสียวๆ | blog-page.hml",
+    "url": "^https?://(xn--72c8cbsnq2dm3fe|xn--72c9a2acwqrc6b9as0ie2graf)\\.bblogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
+  },
+  {
+    "name": "!เรื่องเสียว, อ่านเรื่องเสียวๆ | Label",
+    "url": "^https?://(xn--72c8cbsnq2dm3fe|xn--72c9a2acwqrc6b9as0ie2graf)\\.bblogspot\\.com/search/label/.+",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@id='main' and @class='main section']/div[@id='Blog1' and @class='widget Blog']"
+  },
+  {
+    "name": "rong-sae & newseaw",
+    "url": "^https?://(rong-sae|newseaw)\\.blogspot\\.com/[0-9]+/[0-9]+/.*",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
   },
   {
     "name": "GitHub",
@@ -614,10 +650,16 @@
   },
   {
     "name": "แตกในดอทคอม",
-    "url": "^https?://(taknai|teploivoda|infoavtopravo)\\.(com|ru)/",
+    "url": "^https?://(taknai|teploivoda|infoavtopravo|xxxnaja)\\.(com|ru)/",
     "nextLink": "//li[@class='page-item d-none d-sm-block']/a[@class='page-link'][preceding::li[@class='page-item active']]|//a[@class='navPages'][preceding-sibling::strong[@class='navPages active']]",
     "pageElement": "//div[@id='primary' and @class='content-area']/div[@class='row']",
     "insertAfter": "//div[@class='entry-footer']"
+  },
+  {
+    "name": "ThaiXTale.com",
+    "url": "^https?://thaixtale\\.com/",
+    "nextLink": "//div[@class='elementor-post-navigation__prev elementor-post-navigation__link']/a[@rel='prev']",
+    "pageElement": "//div[@class='elementor-column']"
   },
   {
     "name": "readAwrite รี้ดอะไร้ต์",
@@ -951,9 +993,15 @@
     "pageElement": "//div[@id='content' and @class='content']/div[@id='content-update' and @class='row']"
   },
   {
-    "name": "highporn|tanix",
+    "name": "HighPorn|Tanix",
     "url": "^https?://(highporn|tanix)\\.net/",
     "nextLink": "//ul[@class='pagination']/li/a[@class='prevnext']",
+    "pageElement": "//*[@id='wrapper']/div[2]/div[2]"
+  },
+  {
+    "name": "HighPorn|Tanix Page",
+    "url": "^https?://highporn\\.net/.+&page=[0-9]+",
+    "nextLink": "//ul[@class='pagination']/li/a[text()='«']",
     "pageElement": "//*[@id='wrapper']/div[2]/div[2]"
   },
   {
@@ -971,13 +1019,13 @@
   {
     "name": "Javhub.net (Search)",
     "url": "^https?://javhub\\.net/search/",
-    "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']",
+    "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']|//li/a[preceding::li[@class='active']]",
     "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
   },
   {
     "name": "Javhub.net",
     "url": "^https?://javhub\\.net/",
-    "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']",
+    "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']|//li/a[preceding::li[@class='active']]",
     "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
   },
   {
@@ -1688,5 +1736,24 @@
     "url": "^https?://iporntv\\.net/",
     "nextLink": "//a[@class='now']/following-sibling::a",
     "pageElement": "//div[@class='mainbox']"
+  },
+  {
+    "name": "LuxureTV",
+    "url": "[^.]+\\.luxuretv\\.com/",
+    "nextLink": "//div[@id='pagination']/a[text()='Next »']",
+    "pageElement": "//div[@id='main']/div[@id='left']"
+  },
+  {
+    "name": "PornZog",
+    "url": "^https?://ppornzog\\.com/",
+    "nextLink": "//a[@class='paginator__next']",
+    "pageElement": "/html/body",
+    "insertAfter": "//div[@class='paginator']"
+  },
+  {
+    "name": "Tameike Goro",
+    "url": "^https?://tameikegoro\\.jp/",
+    "nextLink": "//a[@rel='next' and @aria-label='Next »']",
+    "pageElement": "//div[@class='p-slider']"
   }
 ]
