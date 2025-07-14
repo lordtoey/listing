@@ -336,12 +336,6 @@
     "pageElement": "//div[@class='hgamecgimage']"
   },
   {
-    "name": "ryuugames.com",
-    "url": "^https?://www\\.ryuugames\\.com/",
-    "nextLink": "//a[@aria-label='next-page']",
-    "pageElement": "//div[@class='td-pb-row']//div[@class='td-ss-main-content']"
-  },
-  {
     "name": "AdultGamesOn",
     "url": "^https?://adultgameson\\.com/",
     "nextLink": "//a[@class='next page-numbers'][span[text()='Next']]",
