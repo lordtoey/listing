@@ -595,31 +595,31 @@
   },
   {
     "name": "XONLY | ค้นหา",
-    "url": "^https?://xonly8\\.com/index\\.php\\?action=search.+",
+    "url": "^https?://xonly9\\.com/index\\.php\\?action=search.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='content_section']"
   },
   {
     "name": "XONLY | profile",
-    "url": "^https?://xonly8\\.com/index\\.php\\?action=profile.+",
+    "url": "^https?://xonly9\\.com/index\\.php\\?action=profile.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='main_content_section']/div[@id='admin_content']"
   },
   {
     "name": "XONLY | action",
-    "url": "^https?://xonly8\\.com/index\\.php\\?action=.+",
+    "url": "^https?://xonly9\\.com/index\\.php\\?action=.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='main_content_section']/form[@method='post' and @name='topicForm']"
   },
   {
     "name": "XONLY | index.php",
-    "url": "^https?://xonly8\\.com/index\\.php.+",
+    "url": "^https?://xonly9\\.com/index\\.php.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='content_section']/div[@id='main_content_section']"
   },
   {
     "name": "XONLY",
-    "url": "^https?://xonly8\\.com/",
+    "url": "^https?://xonly9\\.com/",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//form[@id='quickModForm' and @class='clear']/div[@id='messageindex' and @class='tborder topic_table']"
   },
