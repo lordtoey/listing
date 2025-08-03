@@ -1307,7 +1307,7 @@
   },
   {
     "name": "MissAV.com",
-    "url": "^https?://missav\\.com/",
+    "url": "^https?://(123av|missav)\\.com/",
     "nextLink": "//a[preceding-sibling::span]",
     "pageElement": "//div/div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']"
   },
@@ -1319,7 +1319,7 @@
   },
   {
     "name": "123AV.com",
-    "url": "[^.]+\\.123av\\.com/",
+    "url": "^https?://123av\\.com/",
     "nextLink": "//a[@class='page-link' and @rel='next' and @aria-label='Next »' and text()='›']|//li[@class='page-item']/a[preceding::li[@class='page-item active']]",
     "pageElement": "//section[@class='mb-5']"
   },
@@ -1755,6 +1755,12 @@
     "nextLink": "//a[@class='paginator__next']",
     "pageElement": "/html/body",
     "insertAfter": "//div[@class='paginator']"
+  },
+  {
+    "name": "XGroovy.com",
+    "url": "^https?://xgroovy\\.com/",
+    "nextLink": "//li/a[preceding::li[@class='page-current']]",
+    "pageElement": "//div[@class='main-content']"
   },
   {
     "name": "Tameike Goro",
