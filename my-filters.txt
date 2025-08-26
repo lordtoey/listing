@@ -236,8 +236,11 @@ miku-doujin.com##.card-body > .mb-3.text-center
 ! 16/5/2563 https://vercomicsporno.com
 vercomicsporno.com##.ipprtcnt
 
-! 5/6/2563 http://thaisexseries.blogspot.com
+! 5/6/2563 https://thaisexseries.blogspot.com
 ||2.bp.blogspot.com/-IcBYSQWBZP0/XnnwOczJeCI/AAAAAAAAFq8/Y1u1AIsrfe0aGpprhrmD63SHaKg8q0YLgCK4BGAYYCw/s1600/covid.jpg$image
+||sv1.picz.in.th/images/2021/05/19/PgwsRk.gif$image
+||sv1.picz.in.th/images/2021/0*k.gif$image
+thaisexseries.blogspot.com###Header1_headerimg
 
 ! 6/6/2563 https://www.heedum.com
 www.heedum.com##p:nth-of-type(1) > [href="https://ssgame66.com"]
@@ -795,6 +798,8 @@ www.xxxthvip.com##.xvp_box > .xvp_bn_pc
 ! 2021-06-04 https://javhub.net
 ||javhub.net/av/img/prime_en.jpg$image
 ||javhub.net/av/img/vr_en_y.jpg$image
+javhub.net##._ciw-wrap
+javhub.net##._ciw-show__b._ciw-show__r._ciw__r._ciw__b._ciw-widget
 
 ! 2021-06-07 https://mawtoload.com
 mawtoload.com##.ai-close-fit.ai-close.code-block-3.code-block > [href]
@@ -876,10 +881,6 @@ xn--l3c1a0a3b1c1b.com##center:nth-of-type(4)
 xn--l3c1a0a3b1c1b.com##[href="https://newyork888.com"]
 xn--l3c1a0a3b1c1b.com##.container > .container > div
 
-! 2021-07-07 http://thaisexseries.blogspot.com
-||sv1.picz.in.th/images/2021/05/19/PgwsRk.gif$image
-||sv1.picz.in.th/images/2021/0*k.gif$image
-
 ! 2021-07-07 https://www.kodpornx.com
 www.kodpornx.com##.ads300s
 
@@ -905,10 +906,6 @@ xn--12cln7c7aya4cs8a9b5gtd3c.com##.adimg
 xn--12cln7c7aya4cs8a9b5gtd3c.com##[src="https://xn--12cln7c7aya4cs8a9b5gtd3c.com/wp-content/uploads/2021/04/600x200hydea.gif"]
 xn--12cln7c7aya4cs8a9b5gtd3c.com##[href="https://newyork888.com"]
 ||xn--12cln7c7aya4cs8a9b5gtd3c.com/wp-content/uploads/2021/01/600x200-newyork888.gif$image
-
-! 2021-09-23 https://javhub.net
-javhub.net##._ciw-wrap
-javhub.net##._ciw-show__b._ciw-show__r._ciw__r._ciw__b._ciw-widget
 
 ! 2021-09-29 https://doujin4u.com
 doujin4u.com##[href="https://hotgraph88.com"]
@@ -1044,9 +1041,6 @@ www.onlyhgames.com##.theme1.chp_ads_block_detector_theme > .chp_ads_block_pro_bo
 
 ! 2022-05-20 https://thaixtale.com
 thaixtale.com##.custom-position.fixed.active.pum-position-fixed.size-tiny.responsive.pum-responsive-tiny.pum-responsive.theme-19161.popmake.pum-container
-
-! 2022-05-27 http://thaisexseries.blogspot.com
-thaisexseries.blogspot.com###Header1_headerimg
 
 ! 2022-05-31 null
 ##.text-center.m-auto
@@ -1209,10 +1203,8 @@ okdoujin.com##.text-md-center.text-center.row
 ! 2023-11-07 https://ok-doujin.com
 ok-doujin.com###sticky-ads-bottom3
 ok-doujin.com###sticky-ads-bottom2
-ok-doujin.com##.widget-content > .center
-
-! 2023-11-08 https://ok-doujin.com
 ok-doujin.com###sticky-ads-bottom
+ok-doujin.com##.widget-content > .center
 
 ! 2023-11-12 https://h-ani.com
 h-ani.com###sticky-ads-bottom
@@ -1316,6 +1308,7 @@ kuro-doujin.com###custom_html-53 > .c-widget-wrap.widget_custom_html__inner.widg
 
 ! 2023-12-11 https://doujin-new.com
 doujin-new.com##.center_doujinnew
+doujin-new.com##div.center_doujinnew2
 
 ! 2023-12-11 https://123doujin.com
 123doujin.com###content > .gm123-1.advt.advertisement.container
@@ -1339,11 +1332,30 @@ doujin-h.com###sticky-ads-bottom2
 h-ani.com###doujinz
 
 ! 2024-01-14 https://avkuy.com
-avkuy.com###banner550all
+! avkuy.com##[href="https://*"] > .loaded
+! avkuy.com##[href="https://*.*/"] > .loaded
+! avkuy.com##[href="https://*.*.*/"] > .loaded
 avkuy.com##.floating_content
-avkuy.com###content-embed [href] > .loaded
-avkuy.com###mv-info > center
-avkuy.com##center
+avkuy.com##.footer-copyright.col-lg-4 > p
+avkuy.com##.footer-one.col-lg-4
+avkuy.com##.footer-subs.col-lg-4
+avkuy.com##center > div
+avkuy.com###ads_08
+avkuy.com###ads_09
+avkuy.com###banner550all
+
+! 1 ก.ค. 2568 https://avkuy.org
+! avkuy.org##[href="https://*"] > .loaded
+! avkuy.org##[href="https://*.*/"] > .loaded
+! avkuy.org##[href="https://*.*.*/"] > .loaded
+avkuy.org##.floating_content
+avkuy.org##.footer-copyright.col-lg-4 > p
+avkuy.org##.footer-one.col-lg-4
+avkuy.org##.footer-subs.col-lg-4
+avkuy.org##center > div
+avkuy.org###ads_08
+avkuy.org###ads_09
+avkuy.org###banner550all
 
 ! 2024-01-15 https://sawstory.com
 sawstory.com##.adx_bottom.x_ax > .x_inner > .warp
@@ -1379,122 +1391,154 @@ avsuck.com##.floating_content
 ! 2024-02-07 https://cat300.com
 cat300.com##.floating_content_center
 
-! 2024-03-31 https://www.subtitlecat.com
-! www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(22)
-! www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(94)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(1)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(2)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(3)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(4)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(5)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(6)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(7)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(8)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(9)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(10)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(11)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(12)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(13)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(14)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(15)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(16)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(17)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(18)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(19)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(20)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(21)
-! www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(22)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(23)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(24)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(25)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(26)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(27)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(28)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(29)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(30)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(31)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(32)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(33)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(34)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(35)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(36)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(37)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(38)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(39)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(40)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(41)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(42)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(43)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(44)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(45)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(46)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(47)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(48)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(49)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(50)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(51)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(52)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(53)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(54)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(55)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(56)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(57)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(58)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(59)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(60)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(61)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(62)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(63)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(64)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(65)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(66)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(67)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(68)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(69)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(70)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(71)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(72)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(73)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(74)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(75)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(76)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(77)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(78)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(79)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(80)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(81)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(82)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(83)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(84)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(85)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(86)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(87)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(88)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(89)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(90)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(91)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(92)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(93)
-! www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(94)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(95)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(96)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(97)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(98)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(99)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(100)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(101)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(102)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(103)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(104)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(105)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(106)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(107)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(108)
-www.subtitlecat.com##div.col-lg-4.col-md-6:nth-of-type(109)
+! 2024-04-18 https://aunstory.com
+aunstory.com##.adx_bottom.x_ax
+||aunstory.com/wp-content/uploads/2024/01/ad-banner.gif$image
 
-! 2024-04-11 https://javcc.me
-javcc.me###floatadsbot
+! 2024-04-25 https://novelza.com
+novelza.com##.justify-content-center.row > [href]
 
-! 2024-04-12 https://subthaixxx.com
-subthaixxx.com##.ad_top_2.ad
+! 2024-04-26 https://taknai.com
+taknai.com##.gglcptch_v2.gglcptch
+||www.google.com/recaptcha/api2/bframe$subdocument
+taknai.com##div:nth-of-type(4)
 
+! 2024-04-30 https://doujin-th.com
+||doujin-th.com/banner/topic_top_*.html$subdocument
+||doujin-th.com/banner/topic_*.html$subdocument
+doujin-th.com##div.row > .col-md-4.col-xs-12
+doujin-th.com##div.row:nth-of-type(2)
+
+! 2024-04-30 https://doujin-th.net
+||doujin-th.net/banner/topic_top_*.html$subdocument
+||doujin-th.net/banner/topic_*.html$subdocument
+doujin-th.net##div.row > .col-md-4.col-xs-12
+doujin-th.net##div.row:nth-of-type(2)
+
+! 2024-04-30 https://hentaithai.com
+||hentaithai.com/banner/topic_top_*.html$subdocument
+||hentaithai.com/banner/topic_*.html$subdocument
+hentaithai.com##div.row > .col-md-4.col-xs-12
+hentaithai.com##div.row:nth-of-type(2)
+
+! 2024-04-30 https://hentaithai.net
+||hentaithai.net/banner/topic_top_*.html$subdocument
+||hentaithai.net/banner/topic_*.html$subdocument
+hentaithai.net##div.row > .col-md-4.col-xs-12
+hentaithai.net##div.row:nth-of-type(2)
+
+! 2024-05-18 https://avsubthai.me
+avsubthai.me##a[href^="https://9king888.cc/"] > .loading.ads800
+avsubthai.me###slider-l
+avsubthai.me###slider-r
+avsubthai.me###slider-f
+avsubthai.me##center > .loading.ads800
+
+! 2024-05-18 https://yedkeng.com
+yedkeng.com##.happy-header-mobile
+yedkeng.com###banner-center
+
+! 28 มิ.ย. 2567 https://adultgamescollector.com
+adultgamescollector.com###slideAppleVideo
+adultgamescollector.com###slideAppleClose
+adultgamescollector.com###slideApple
+
+! 28 มิ.ย. 2567 https://javdob.com
+javdob.com##center
+javdob.com###bt-ads
+
+! 18 พ.ย. 2567 https://www.aoxx69.net
+www.aoxx69.net##.close_button
+
+! 22 ธ.ค. 2567 https://www.ryuugames.com
+www.ryuugames.com##.td-pb-span12
+
+! 26 ธ.ค. 2567 https://hxani.com
+hxani.com##.rowfix.row > div.col-md-6
+hxani.com###doujinz
+
+! 28 ธ.ค. 2567 https://doujin-new.com
+doujin-new.com###sticky-bottom3
+doujin-new.com###sticky-bottom2
+doujin-new.com##.sticky-bottom-inside
+doujin-new.com###sticky-bottom
+
+! 10 ม.ค. 2568 https://xhamster.com
+xhamster.com##.skeleton-18770.root-56cf2
+
+! 20 ม.ค. 2568 https://cat-300.com
+cat-300.com##div#cat300_ads3.floating_content:nth-of-type(7)
+cat-300.com##[href="https://lionth.io/baccarat/"]
+cat-300.com##[src="https://cat300.net/wp-content/uploads/2024/11/catcatbet.gif"]
+cat-300.com###cat300_ads2
+cat-300.com##div#cat300_ads3.floating_content:nth-of-type(6)
+
+! 21 ม.ค. 2568 https://doujin-th.com
+doujin-th.com##div.container:nth-of-type(3)
+
+! 22 ม.ค. 2568 https://www.storyincst.com
+www.storyincst.com##.dugapCPb
+www.storyincst.com##.fittexted_for_entry.themeform.entry > .entry-inner > .quads-ad9918.quads-location
+www.storyincst.com###exo-mobile-im-close-button
+www.storyincst.com###exo-mobile-im-container-wrapper
+
+! 17 ก.พ. 2568 https://doujin-lc.net
+doujin-lc.net##[href^="https://neon24h2.com/register"] > .litespeed-loaded.entered.ads-resm
+doujin-lc.net###ads_03 > div
+doujin-lc.net##.c-container.container > .c-row.row
+
+! 20 ก.พ. 2568 https://heedum.com
+heedum.com##.ads-top
+heedum.com###media_image-27 > .close-banner
+
+! 20 ก.พ. 2568 https://www.g4guys.com
+www.g4guys.com###frameWz15B4
+
+! 2 มี.ค. 2568 https://boy-seed-online.blogspot.com
+boy-seed-online.blogspot.com##.HTML.widget
+
+! 18 เม.ย. 2568 https://javhdz.today
+javhdz.today##div.panel-padding.panel-body:nth-of-type(2) > .ads-responsive
+
+! 10 พ.ค. 2568 https://doo18xxx.com
+doo18xxx.com##.e-lazyloaded.e-parent.e-con.e-con-boxed.e-grid.elementor-element-44da2ea.elementor-element > .e-con-inner
+
+! 16 พ.ค. 2568 https://www.javded.com
+www.javded.com##center
+www.javded.com##.floating_content
+
+! 21 พ.ค. 2568 https://javsiam.com
+javsiam.com##.ads140s
+javsiam.com###spin-r
+javsiam.com###slider-r
+javsiam.com###slider-f
+javsiam.com###slider-l
+javsiam.com###more-na > .adcen
+javsiam.com##.is-fluid.container > .adcen > a.adv > .adimg
+javsiam.com##body > .adcen > a.adv > .adimg
+
+! 21 พ.ค. 2568 https://avnancy.net
+avnancy.net##center:nth-of-type(1)
+avnancy.net##[href] > .lazyloaded.loaded.entered
+
+! 21 พ.ค. 2568 https://thegfporn.com
+thegfporn.com###spin-r
+thegfporn.com###slider-r
+thegfporn.com###slider-l
+thegfporn.com##.ads300s
+
+! 21 พ.ค. 2568 https://avnancy.net
+avnancy.net##center:nth-of-type(2)
+
+! 4 ส.ค. 2568 https://xgroovy.com
+xgroovy.com##.inner--w8Qlv
+xgroovy.com##.rootContent--aEiRU
+xgroovy.com##.slideAnimation--K36g6.bottomRight--sO8K2.root--ujvuu
+
+! 16 ส.ค. 2568 https://javsiam2.com
+javsiam2.com###slider-r
+javsiam2.com###slider-l
+javsiam2.com###slider-f
+
+! 26 ส.ค. 2568 https://manga1688.com
+manga1688.com##center
