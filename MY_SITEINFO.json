@@ -1009,12 +1009,6 @@
     "pageElement": "//div[@id='content' and @class='content']/div[@id='content-update' and @class='row']"
   },
   {
-    "name": "HighPorn, Tanix > Next",
-    "url": "^https?://(highporn|tanix)\\.net/.+&page=1",
-    "nextLink": "//ul[@class='pagination']/li/a[@class='prevnext']",
-    "pageElement": "//div[@id='wrapper']/div[@class='container']/div[@class='row']"
-  },
-  {
     "name": "HighPorn, Tanix < Previous",
     "url": "^https?://(highporn|tanix)\\.net/.+&page=[0-9]+",
     "nextLink": "//ul[@class='pagination']/li/a[text()='«']",
@@ -1027,6 +1021,12 @@
     "pageElement": "//div[@id='wrapper']/div[@class='container']/div[@class='row']"
   },
   {
+    "name": "HighPorn, Tanix > Next",
+    "url": "^https?://(hhighporn|ttanix)\\.net/.+(&page=1$|)",
+    "nextLink": "//ul[@class='pagination']/li/a[@class='prevnext']",
+    "pageElement": "//div[@id='wrapper']/div[@class='container']/div[@class='row']"
+  },
+  {
     "name": "Japanhub|thatav",
     "url": "^https?://(japanhub|thatav)\\.net/",
     "nextLink": "//li/a[preceding::li[@class='active']]",
@@ -1034,19 +1034,25 @@
   },
   {
     "name": "Javhub.net (< Previous)",
-    "url": "^https?://javhub\\.net/.+\\?page=[0-9]+",
+    "url": "^https?://(javhub|javfor)\\.(net|tv)/.+\\?page=[0-9]+",
     "nextLink": "//li/a[@aria-label='Previous']|//a[text()='Previous']",
-    "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
+    "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div|//div[@class='col']/div[@class='card mb-3']"
+  },
+  {
+    "name": "Javhub.net (Actor)",
+    "url": "^https?://(javhub|javfor)\\.(net|tv)/actor/",
+    "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']|//li/a[preceding::li[@class='active']]",
+    "pageElement": "//div[@class='col']/div[@class='card mb-3']"
   },
   {
     "name": "Javhub.net (Search)",
-    "url": "^https?://javhub\\.net/search/",
+    "url": "^https?://(javhub|javfor)\\.(net|tv)/search/",
     "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']|//li/a[preceding::li[@class='active']]",
     "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
   },
   {
     "name": "Javhub.net",
-    "url": "^https?://javhub\\.net/",
+    "url": "^https?://(javhub|javfor)\\.(net|tv)/",
     "nextLink": "//li/a[@aria-label='Next']|//a[text()='Next']|//li/a[preceding::li[@class='active']]",
     "pageElement": "//div[@class='col-md']/div[@class='card mb-3']|//div[@class='row']/div[@class='card mb-3']|//*[@id='ui-block']/div[5]/div/div[2]/div"
   },
@@ -1275,13 +1281,13 @@
   },
   {
     "name": "av-th.net",
-    "url": "^https?://www\\.av-th\\.net/",
+    "url": "^[^.]+\\.av-th\\.net/",
     "nextLink": "//a[@class='nextpostslink' and @rel='next' and text()='»']",
     "pageElement": "//div[@class='blog-wrapper global-blog-wrapper blog-wrapper-control']"
   },
   {
     "name": "avpockiehd.com",
-    "url": "^https?://(www2?\\.)?avpockiehd\\.com/",
+    "url": "^[^.]+\\.avpockiehd\\.com/",
     "nextLink": "//li/a[@class='inactive'][preceding::li/a[@class='current']]",
     "pageElement": "//div[@class='main']|//ul[@class='video_list']"
   },
@@ -1299,7 +1305,7 @@
   },
   {
     "name": "AvSubThai",
-    "url": "^https?://wwww\\.avsubthai\\.me/",
+    "url": "^[^.]+\\.avsubthai\\.(com|me)/",
     "nextLink": "//a[@class='next page-numbers' and text()='»']|//a[@class='page-numbers'][preceding-sibling::span[@class='page-numbers current' and @aria-current='page']]",
     "pageElement": "//div[@class='container']"
   },
@@ -1311,13 +1317,13 @@
   },
   {
     "name": "AVKUY.COM",
-    "url": "^https?://(www\\.)?(avkuy|javkuy)\\.(com|net)/",
+    "url": "^[^.]+\\.(avkuy|javkuy)\\.(com|net)/",
     "nextLink": "//a[@class='nextpostslink']|//a[@class='page larger'][preceding-sibling::span[@class='current']]|//li/a[@class='page larger'][preceding::li[@class='active']]",
     "pageElement": "//div[@class='container']/div[@class='main-content main-category']"
   },
   {
     "name": "AVKUY.COM Reverse",
-    "url": "^https?://(www\\.)?(aavkuy|jjavkuy)\\.(com|net)/",
+    "url": "^[^.]+\\.(aavkuy|jjavkuy)\\.(com|net)/",
     "nextLink": "//li/a[1][following::li[@class='active']]",
     "pageElement": "//div[@class='container']/div[@class='main-content main-category']"
   },
@@ -1832,4 +1838,4 @@
     "nextLink": "//li[@class='next']/a",
     "pageElement": "//div[@id='list_videos_common_videos_list']|//div[@id='list_videos_videos_list_search_result']"
   }
-      ]
+]
