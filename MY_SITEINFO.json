@@ -5,10 +5,10 @@
     "pageElement": "id('rso')/div"
   },
   {
-    "name": "Bloger",
-    "url": "[^.]+\\.bblogspot\\.com/|[^.]+\\.google.*\\.com/[^.]+\\.bblogspot\\.com/.*",
-    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
-    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
+    "name": "Blogger",
+    "url": "^[^.]+\\.blogspot\\.com/",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//a[@class='blog-pager-older-link flat-button ripple']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
     "name": "Internet Archive | Bloger Newer",
@@ -41,7 +41,7 @@
     "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
   },
   {
-    "name": "Thaisexseries",
+    "name": "Thai Sex Series",
     "url": "^https?://thaisexseries\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html",
     "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
     "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
@@ -54,15 +54,15 @@
   },
   {
     "name": "รวมเรื่องเสียวฟรี | Search",
-    "url": "^https?://(รวมเรื่องเสียวฟรี|sexstoryfree|xn--72c2cefcbd0ae2a5a2het7ke7k|yedstorysex)\\.blogspot\\.com/search/",
+    "url": "^https?://(sexstoryfree|yedstorysex|รวมเรื่องเสียวฟรี|xn--72c2cefcbd0ae2a5a2het7ke7k)\\.blogspot\\.com/search/",
     "nextLink": "//div[@id='blog-pager' and @class='blog-pager']/span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link' and @class='blog-pager-older-link']",
-    "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']|//div[@id='page' and @class='hfeed site']/div[@id='content' and @class='content-wrapper']"
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']|//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']|//div[@class='main_content_container clearfix']"
   },
   {
     "name": "รวมเรื่องเสียวฟรี",
-    "url": "^https?://(รวมเรื่องเสียวฟรี|sexstoryfree|xn--72c2cefcbd0ae2a5a2het7ke7k|yedstorysex)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html",
-    "nextLink": "//a[@id='Blog1_blog-pager--older-link' and @class='blog-pager--older-link'][preceding-sibling::span[@class='pager-title-right']]",
-    "pageElement": "//div[@class='date-outer']|//div[@class='entry' and div[@class='entrybody']]|//article[@class='post-outer-container']"
+    "url": "^https?://(sexstoryfree|yedstorysex|รวมเรื่องเสียวฟรี|xn--72c2cefcbd0ae2a5a2het7ke7k)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//a[@class='blog-pager-newer-link flat-button ripple']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']|//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']|//div[@class='main_content_container clearfix']"
   },
   {
     "name": "Boy-Seed-Online | blog-page.hml",
@@ -576,14 +576,20 @@
     "pageElement": "//main[@id='main' and @class='site-main']/div[@id='post-wrapper' and @class='post-wrapper clearfix']"
   },
   {
+    "name": "StoryIncst | Next",
+    "url": "^https?://(www\\.|)storyincst\\.com/",
+    "nextLink": "//ul[@class='post-nav group']/li[@class='next']/a[@rel='next']|//li[@class='next right']/a",
+    "pageElement": "//div[@class='main-inner group']/main[@id='content' and @class='content']"
+  },
+  {
     "name": "StoryIncst | Previous",
     "url": "^https?://(www\\.|)sstoryincst\\.com/(tag/)?[ก-๙]+/page/[^/]+/",
     "nextLink": "//ul[@class='post-nav group']/li[@class='previous']/a[@rel='prev']|//li[@class='prev left']/a",
     "pageElement": "//div[@class='main-inner group']/main[@id='content' and @class='content']"
   },
   {
-    "name": "StoryIncst | Next",
-    "url": "^https?://(www\\.|)storyincst\\.com/",
+    "name": "StoryBlack | Next",
+    "url": "^https?://storyblack\\.com/",
     "nextLink": "//ul[@class='post-nav group']/li[@class='next']/a[@rel='next']|//li[@class='next right']/a",
     "pageElement": "//div[@class='main-inner group']/main[@id='content' and @class='content']"
   },
@@ -592,12 +598,6 @@
     "url": "^https?://sstoryblack\\.com/",
     "nextLink": "//ul[@class='post-nav group']/li[@class='previous']/a[@rel='prev']|//li[@class='prev left']/a",
     "pageElement": "//div[@class='main-inner group']/main[@id='content' and @class='content']"
-  },
-  {
-    "name": "StoryBlack | Next",
-    "url": "^https?://storyblack\\.com/",
-    "nextLink": "//ul[@class='post-nav group']/li[@class='next']/a[@rel='next']|//li[@class='next right']/a",
-    "pageElement": "//main[@id='content' and @class='content']"
   },
   {
     "name": "โคตรโป๊ | premium-santehnika.ru",
@@ -613,31 +613,31 @@
   },
   {
     "name": "XONLY | ค้นหา",
-    "url": "^https?://xonly9\\.com/index\\.php\\?action=search.+",
+    "url": "^https?://xonly[8-9]\\.com/index\\.php\\?action=search.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='content_section']"
   },
   {
     "name": "XONLY | profile",
-    "url": "^https?://xonly9\\.com/index\\.php\\?action=profile.+",
+    "url": "^https?://xonly[8-9]\\.com/index\\.php\\?action=profile.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='main_content_section']/div[@id='admin_content']"
   },
   {
     "name": "XONLY | action",
-    "url": "^https?://xonly9\\.com/index\\.php\\?action=.+",
+    "url": "^https?://xonly[8-9]\\.com/index\\.php\\?action=.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='main_content_section']/form[@method='post' and @name='topicForm']"
   },
   {
     "name": "XONLY | index.php",
-    "url": "^https?://xonly9\\.com/index\\.php.+",
+    "url": "^https?://xonly[8-9]\\.com/index\\.php.+",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//div[@id='content_section']/div[@id='main_content_section']"
   },
   {
     "name": "XONLY",
-    "url": "^https?://xonly9\\.com/",
+    "url": "^https?://xonly[8-9]\\.com/",
     "nextLink": "//a[@class='nav_page'][preceding-sibling::span[@class='current_page']]",
     "pageElement": "//form[@id='quickModForm' and @class='clear']/div[@id='messageindex' and @class='tborder topic_table']"
   },
@@ -1112,15 +1112,15 @@
   },
   {
     "name": "JAVHD.Today (Releaseday) Previous",
-    "url": "^https?://javhdz?\\.today/[^/]+/releaseday/[0-9]+/",
-    "nextLink": "//a[@class='prevnext' and text()='Prev ']",
-    "pageElement": "//div[@id='content' and @class='row']/div[@class='col-xs-12 col-sm-12 col-md-12']|//div[@class='panel panel-default']/div[@class='panel-body panel-padding']"
+    "url": "^https?://javhdz?\\.today/[^/]+/[a-z]*/[0-9]+/",
+    "nextLink": "//a[@class='prevnext' and text()='prev '][i[@class='fa fa-arrow-left']]",
+    "pageElement": "//div[@class='col-xs-12 col-sm-12 col-md-12']|//div[@id='content' and @class='row']/div[@class='col-xs-12 col-sm-12 col-md-12']|//div[@class='panel panel-default']/div[@class='panel-body panel-padding']"
   },
   {
     "name": "JAVHD.Today",
     "url": "^https?://javhdz?\\.today/",
-    "nextLink": "//a[@class='prevnext' and text()='Next ']",
-    "pageElement": "//div[@class='col-md-12']/div[@class='content-channel']|//div[@class='col-md-12']/div[@class='content-model']|//div[@class='panel panel-default']/div[@class='panel-body panel-padding']|//div[@class='panel panel-default']/div[@class='panel-body no-padding']"
+    "nextLink": "//a[@class='prevnext' and text()='next '][i[@class='fa fa-arrow-right']]",
+    "pageElement": "//div[@class='col-xs-12 col-sm-12 col-md-12']|//div[@class='col-md-12']/div[@class='content-channel']|//div[@class='col-md-12']/div[@class='content-model']|//div[@class='panel panel-default']/div[@class='panel-body panel-padding']|//div[@class='panel panel-default']/div[@class='panel-body no-padding']"
   },
   {
     "name": "Javseen.tv",
@@ -1767,7 +1767,7 @@
   },
   {
     "name": "SpankBang",
-    "url": "^https?://([^.]+\\.)?spankbang\\.com/",
+    "url": "^https?://([a-z]{2}\\.)?spankbang\\.com/",
     "nextLink": "//li[@class='next']/a",
     "pageElement": "//main[@class='main-container']/div[1]"
   },
@@ -1838,4 +1838,4 @@
     "nextLink": "//li[@class='next']/a",
     "pageElement": "//div[@id='list_videos_common_videos_list']|//div[@id='list_videos_videos_list_search_result']"
   }
-]
+      ]
