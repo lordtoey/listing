@@ -139,6 +139,7 @@ www.heavy-r.com##.xufsmyplycslghtjx-kxxemvbth
 www.heavy-r.com##.xufsmyplycslghtjx-pxvoqe
 www.heavy-r.com##.xufsmyplfnrjbrrygs.xufsmypljhgiv.xufsmyplyzb-nlxj
 www.heavy-r.com###bkqkizwnq.qotuuxbt
+www.heavy-r.com###winter_topbar
 
 ! 8/2/2563 https://daftsex.com
 daftsex.com##.extension
@@ -989,6 +990,8 @@ cat300.com###custom_html-4 > .c-widget-wrap.widget_custom_html__inner.widget__in
 
 ! 2022-03-07 https://www2.javhdporn.net
 www2.javhdporn.net##.header-ad-desktop
+www4.javhdporn.net##.header-ad-desktop
+www4.javhdporn.net##.sidebar-ads 
 
 ! 2022-03-10 http://www.g4guys.com
 www.g4guys.com###portal_block_600_content > .portal_block_summary
@@ -1061,6 +1064,10 @@ www.aoxx69.net##.slick-slider.slick-initialized.Banner_slick.slider > .draggable
 
 ! 2022-12-04 https://missav.com
 missav.com##.root--ujvuu
+||gsjln04hd.com/lvesnk.html$subdocument
+||creative.live.missav.com/widgets/Player$subdocument
+!||preview.mp4$video
+||fourhoi.com$video
 
 ! 2022-12-22 https://www.japanhub.com
 www.japanhub.com###block-34
@@ -1186,10 +1193,6 @@ www.storyincst.com##div:nth-of-type(3)
 www.storyincst.com##div:nth-of-type(4)
 ||www.recaptcha.net/recaptcha/api2/bframe$subdocument
 ||www.recaptcha.net/recaptcha/api2/bframe$subdocument
-
-! 2023-10-19 https://missav.com
-||gsjln04hd.com/lvesnk.html$subdocument
-||creative.live.missav.com/widgets/Player$subdocument
 
 ! 2023-11-04 https://xn--72c0anj1fqa1a1lsa4fj.com
 หนังโป๊เด้ออ.com###slider-l
@@ -1542,3 +1545,36 @@ javsiam2.com###slider-f
 
 ! 26 ส.ค. 2568 https://manga1688.com
 manga1688.com##center
+
+! 19 ก.ย. 2568 https://www.animeseven.com
+www.animeseven.com##div.container > .row > .center_lnwphp
+www.animeseven.com##.panel-body > center
+
+! 20 ก.ย. 2568 https://hentaithai.com
+hentaithai.com##section > .my-3.row > .banner-viewport > .banner-content
+hentaithai.com##.mt-4.sidebar-banner-sticky
+hentaithai.com##section > .my-3.row
+hentaithai.com##div.my-3.g-3.text-center.row:nth-of-type(4)
+hentaithai.com##.my-2.after-banner-section
+
+! 22 ต.ค. 2568 https://xlprn.com
+xlprn.com##.content > .box > .list-videos > .margin-fix
+
+! 3 ธ.ค. 2568 https://jav24hd.net
+jav24hd.net##body > center
+
+! 3 ธ.ค. 2568 https://javwow.com
+javwow.com##.floating_content
+javwow.com##.loaded
+
+! 27 ธ.ค. 2568 https://www.bestjavporn.com
+www.bestjavporn.com##.sidebar-ads
+
+! 15 ม.ค. 2569 https://missav.live
+||fourhoi.com/*/preview.mp4$media
+
+! 17 ม.ค. 2569 https://missav.live
+missav.live##.bottomRight--h0VsQ.root--26nWL
+
+! 4 ก.ค. 2569 https://18j.tv
+18j.tv##.gdhf
