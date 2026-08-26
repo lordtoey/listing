@@ -1545,7 +1545,7 @@
   {
     "url": "^https?://x\\.91sheshe\\.(com|xyz)/",
     "nextLink": "//a[@class='button is-small is-danger is-rounded is-outlined theme-button'][preceding-sibling::a[@class='button is-small is-danger is-rounded theme-button-selected']]",
-    "pageElement": "//div[@class='container']/div[@class='mx-2 my-3']"
+    "pageElement": "//div[@class='container']/div[@class='m-2']"
   },
   {
     "url": "^[^.]+\\.(sufubu|zufubu)\\.(com|xyz)/",
