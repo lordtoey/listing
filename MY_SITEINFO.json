@@ -4,23 +4,13 @@
     "pageElement": "id('rso')/div"
   },
   {
-    "url": "^[^.]+\\.blogspot\\.com/",
-    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//a[@class='blog-pager-older-link flat-button ripple']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
-    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
-  },
-  {
-    "url": "^https?://web\\.archive\\.org/web/[^/]+/[^.]+\\.blogspot\\.com/.*",
-    "nextLink": "//div[@id='blog-pager' and @class='blog-pager']/span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link' and @class='blog-pager-older-link']",
-    "pageElement": "//div[@class='columns fauxcolumns']"
-  },
-  {
     "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
     "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
     "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/.+\\.html.*",
-    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
+    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
@@ -82,6 +72,16 @@
     "url": "^https?://(rong-sae|newseaw)\\.blogspot\\.com/[0-9]+/[0-9]+/.*",
     "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
     "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
+  },
+  {
+    "url": "^[^.]+\\.blogspot\\.com/",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//a[@class='blog-pager-older-link flat-button ripple']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
+  },
+  {
+    "url": "^https?://web\\.archive\\.org/web/[^/]+/[^.]+\\.blogspot\\.com/.*",
+    "nextLink": "//div[@id='blog-pager' and @class='blog-pager']/span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link' and @class='blog-pager-older-link']",
+    "pageElement": "//div[@class='columns fauxcolumns']"
   },
   {
     "url": "^https?://github\\.com/",
