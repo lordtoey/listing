@@ -1543,6 +1543,11 @@
     "pageElement": "//div[@id='list_videos_common_videos_list']|//div[@id='list_videos_videos_list_search_result']"
   },
   {
+    "url": "^https?://911porna\\.com/",
+    "nextLink": "//li[@class='pager-item-left pager-item-right']/a[@class='pager-item']",
+    "pageElement": "//main[@class='dx-container app-content']/div[@id='search-results' and @class='search-results']|//body/main/div[3] | /html/body/main/div[3]"
+  },
+  {
     "url": "^https?://x\\.91sheshe\\.(com|xyz)/",
     "nextLink": "//a[@class='button is-small is-danger is-rounded is-outlined theme-button'][preceding-sibling::a[@class='button is-small is-danger is-rounded theme-button-selected']]",
     "pageElement": "//div[@class='container']/div[@class='m-2']"
@@ -1550,6 +1555,6 @@
   {
     "url": "^[^.]+\\.(sufubu|zufubu)\\.(com|xyz)/",
     "nextLink": "//a[@class='button is-small is-danger is-rounded is-outlined theme-button'][preceding-sibling::a[@class='button is-small is-danger is-rounded theme-button-selected']]",
-    "pageElement": "//div[@class='container']/div[@class='mx-2 my-3']"
+    "pageElement": "//div[@class='container']/div[@class='m-2']"
   }
 ]
