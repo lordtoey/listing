@@ -4,13 +4,23 @@
     "pageElement": "id('rso')/div"
   },
   {
+    "url": "[^.]+\\.blogspot\\.com/",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//a[@class='blog-pager-older-link flat-button ripple']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
+    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
+  },
+  {
+    "url": "^https?://web\\.archive\\.org/web/[^/]+/[^.]+\\.blogspot\\.com/.*",
+    "nextLink": "//div[@id='blog-pager' and @class='blog-pager']/span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link' and @class='blog-pager-older-link']",
+    "pageElement": "//div[@class='columns fauxcolumns']"
+  },
+  {
     "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/[0-9]+/[0-9]+/[^.]+\\.html.*",
     "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
     "url": "^https?://(lovestorythai|lovexxxlove)\\.blogspot\\.com/.+\\.html.*",
-    "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
+    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
     "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
   },
   {
@@ -72,16 +82,6 @@
     "url": "^https?://(rong-sae|newseaw)\\.blogspot\\.com/[0-9]+/[0-9]+/.*",
     "nextLink": "//a[@id='Blog1_blog-pager-newer-link']|//span[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']|//div[@id='blog-pager-newer-link']/a[@id='Blog1_blog-pager-newer-link']",
     "pageElement": "//div[@class='date-outer']|//div[@class='column-center-inner']|//div[@id='main-wrapper']/div[@id='main' and @class='main section']"
-  },
-  {
-    "url": "^[^.]+\\.blogspot\\.com/",
-    "nextLink": "//a[@id='Blog1_blog-pager-older-link']|//a[@class='blog-pager-older-link flat-button ripple']|//span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']|//div[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link']",
-    "pageElement": "//div[@class='fauxborder-left main-fauxborder-left']"
-  },
-  {
-    "url": "^https?://web\\.archive\\.org/web/[^/]+/[^.]+\\.blogspot\\.com/.*",
-    "nextLink": "//div[@id='blog-pager' and @class='blog-pager']/span[@id='blog-pager-older-link']/a[@id='Blog1_blog-pager-older-link' and @class='blog-pager-older-link']",
-    "pageElement": "//div[@class='columns fauxcolumns']"
   },
   {
     "url": "^https?://github\\.com/",
@@ -736,8 +736,8 @@
   },
   {
     "url": "^https?://www\\.javdatabase\\.com/",
-    "nextLink": "//li[@class='page-item']/a[@class='page-link'][preceding::li[@class='page-item active']]",
-    "pageElement": "//div[@class='content-area']/main[@class='site-main']|//div[@class='facetwp-template']/div[@class='row']|//main[@class='site-main']/div[@class='row']"
+    "nextLink": "//li[@class='page-item']/a[@class='page-link'][preceding::li[@class='page-item active']/span[@class='page-link']]",
+    "pageElement": "//div[@class='entry-content']/div[@class='facetwp-template']|//div[@id='primary' and @class='content-area']/div[@class='row']"
   },
   {
     "url": "^https?://db\\.msin\\.jp/",
@@ -916,12 +916,12 @@
     "pageElement": "//div[@id='namevn']//section[@class='tn-boxsty']"
   },
   {
-    "url": "^https?://jav\\.guru/.+/page/[0-9]+/",
+    "url": "^https?://jjav\\.gguru/.+/page/[0-9]+/",
     "nextLink": "//div[@class='nav-next']/span[@class='next']/a|//div[@class='nav-links']/a[@class='prev page-numbers' and text()=' Previous']",
     "pageElement": "//div[@id='primary' and @class='content-area']/main[@id='main' and @class='site-main']"
   },
   {
-    "url": "^https?://jav\\.guru/jav-actress-list/",
+    "url": "^https?://jjav\\.gguru/jav-actress-list/",
     "nextLink": "//a[@class='next page-numbers' and text()='next']|//a[@class='page-numbers'][preceding-sibling::span[@class='page-numbers current' and @aria-current='page']]",
     "pageElement": "//div[@id='primary' and @class='content-area']/main[@id='main' and @class='site-main']"
   },
@@ -951,12 +951,12 @@
     "pageElement": "//div[@class='row']/div[@class='col-md-10']"
   },
   {
-    "url": "^[^.]+\\.javhdporn\\.net/.+/page/[0-9]+/",
+    "url": "[^.]+\\.javhdporn\\.net/.+/page/[0-9]+/",
     "nextLink": "//li/a[text()='Previous']",
     "pageElement": "//div[@id='primary' and @class='content-area']/main[@id='main' and @class='site-main']"
   },
   {
-    "url": "^[^.]+\\.javhdporn\\.net/",
+    "url": "[^.]+\\.javhdporn\\.net/",
     "nextLink": "//a[@rel='next']|//link[@rel='next']",
     "pageElement": "//div[@id='primary' and @class='content-area']/main[@id='main' and @class='site-main']"
   },
@@ -1022,17 +1022,17 @@
     "pageElement": "//article/div[@class='pst-cls nfl']"
   },
   {
-    "url": "^[^.]+\\.bestjavporn\\.com/search/",
+    "url": "[^.]+\\.bestjavporn\\.com/search/",
     "nextLink": "//li/a[preceding::li/a[@class='current']]|//li/a[text()='Next']",
     "pageElement": "//main[@id='main' and @class='site-main ']"
   },
   {
-    "url": "^[^.]+\\.bestjavporn\\.com/.+/page/[0-9]+/",
+    "url": "[^.]+\\.bestjavporn\\.com/.+/page/[0-9]+/",
     "nextLink": "//li/a[text()='Previous']",
     "pageElement": "//div[@id='primary' and @class='content-area ']"
   },
   {
-    "url": "^[^.]+\\.bestjavporn\\.com/",
+    "url": "[^.]+\\.bestjavporn\\.com/",
     "nextLink": "//li/a[@class='inactive'][preceding::li/a[@class='current']]|//li/a[text()='Next']",
     "pageElement": "//div[@id='primary' and @class='content-area ']"
   },
@@ -1077,12 +1077,12 @@
     "pageElement": "//div[@id='bodyarea']/form[@id='quickModForm' and @name='quickModForm']"
   },
   {
-    "url": "^[^.]+\\.av-th\\.net/",
+    "url": "[^.]+\\.av-th\\.net/",
     "nextLink": "//a[@class='nextpostslink' and @rel='next' and text()='»']",
     "pageElement": "//div[@class='blog-wrapper global-blog-wrapper blog-wrapper-control']"
   },
   {
-    "url": "^[^.]+\\.avpockiehd\\.com/",
+    "url": "[^.]+\\.avpockiehd\\.com/",
     "nextLink": "//li/a[@class='inactive'][preceding::li/a[@class='current']]",
     "pageElement": "//div[@class='main']|//ul[@class='video_list']"
   },
@@ -1097,7 +1097,7 @@
     "pageElement": "//div[@class='row']//section[@class='video-listing ']|//div[@class='td-pb-row']//div[@class='td-ss-main-content']"
   },
   {
-    "url": "^[^.]+\\.avsubthai\\.(com|me)/",
+    "url": "[^.]+\\.avsubthai\\.(com|me)/",
     "nextLink": "//a[@class='next page-numbers' and text()='»']|//a[@class='page-numbers'][preceding-sibling::span[@class='page-numbers current' and @aria-current='page']]",
     "pageElement": "//div[@class='container']"
   },
@@ -1107,12 +1107,12 @@
     "pageElement": "//div[@class='video-loop']"
   },
   {
-    "url": "^[^.]+\\.(avkuy|javkuy)\\.(com|net)/",
+    "url": "[^.]+\\.(avkuy|javkuy)\\.(com|net)/",
     "nextLink": "//a[@class='nextpostslink']|//a[@class='page larger'][preceding-sibling::span[@class='current']]|//li/a[@class='page larger'][preceding::li[@class='active']]",
     "pageElement": "//div[@class='container']/div[@class='main-content main-category']"
   },
   {
-    "url": "^[^.]+\\.(aavkuy|jjavkuy)\\.(com|net)/",
+    "url": "[^.]+\\.(aavkuy|jjavkuy)\\.(com|net)/",
     "nextLink": "//li/a[1][following::li[@class='active']]",
     "pageElement": "//div[@class='container']/div[@class='main-content main-category']"
   },
@@ -1137,7 +1137,7 @@
     "pageElement": "//div[@class='album py-5 bg-light']/div[@class='container']"
   },
   {
-    "url": "^https?://(missav|missav123|123av|thisav)\\.(com|live|ws)/.+[?]page=([0-9]{3}|[0-9]{2})",
+    "url": "^https?://(missav|missav123|123av|thisav)\\.(com|live|ws)/.+[?]page=[0-9]+$",
     "nextLink": "//a[@rel='prev']|//a[@rel='prev' and @aria-label='« Previous']",
     "pageElement": "//div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']"
   },
@@ -1147,7 +1147,7 @@
     "pageElement": "//div/div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']"
   },
   {
-    "url": "^https?://(missav|missav123|123av|thisav)\\.(com|live|ws)/.+([?]page=1)?",
+    "url": "^https?://(missav|missav123|123av|thisav)\\.(com|live|ws)/.+([?]page=1)?$",
     "nextLink": "//a[@rel='next']|//a[@rel='next' and @aria-label='Next »']|//a[@rel='next']|//a[@rel='next' and @aria-label='pagination.next']",
     "pageElement": "//div[@class='\n                    sm:container mx-auto px-4 \n                    \n                    content-without-search\n                    pb-12\n                ']"
   },
@@ -1533,6 +1533,11 @@
     "pageElement": "//div[@class='row']/div[@class='left-content']|//div[@class='container-fluid']"
   },
   {
+    "url": "^https?://www\\.javdock\\.com/",
+    "nextLink": "//a[contains(concat(' ', normalize-space(@class), ' '), ' relative ') and contains(concat(' ', normalize-space(@class), ' '), ' inline-flex ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and contains(concat(' ', normalize-space(@class), ' '), ' px-4 ') and contains(concat(' ', normalize-space(@class), ' '), ' py-2 ') and contains(concat(' ', normalize-space(@class), ' '), ' -ml-px ') and contains(concat(' ', normalize-space(@class), ' '), ' text-sm ') and contains(concat(' ', normalize-space(@class), ' '), ' font-medium ') and contains(concat(' ', normalize-space(@class), ' '), ' text-nord4 ') and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' hover:bg-nord1 ') and contains(concat(' ', normalize-space(@class), ' '), ' focus:outline-none ') and contains(concat(' ', normalize-space(@class), ' '), ' active:bg-nord1 ') and contains(concat(' ', normalize-space(@class), ' '), ' transition ') and contains(concat(' ', normalize-space(@class), ' '), ' ease-in-out ')][preceding::span[@class='relative inline-flex items-center px-4 py-2 -ml-px text-sm font-medium rounded-lg text-nord6 bg-primary cursor-default leading-5']]",
+    "pageElement": "//div[contains(concat(' ', normalize-space(@class), ' '), ' sm:container ') and contains(concat(' ', normalize-space(@class), ' '), ' mx-auto ') and contains(concat(' ', normalize-space(@class), ' '), ' px-4 ') and contains(concat(' ', normalize-space(@class), ' '), ' content-without-search ') and contains(concat(' ', normalize-space(@class), ' '), ' pb-12 ')]"
+  },
+  {
     "url": "^https?://tameikegoro\\.jp/",
     "nextLink": "//a[@rel='next' and @aria-label='Next »']",
     "pageElement": "//div[@class='p-slider']"
@@ -1553,8 +1558,18 @@
     "pageElement": "//div[@class='container']/div[@class='m-2']"
   },
   {
-    "url": "^[^.]+\\.(sufubu|zufubu)\\.(com|xyz)/",
+    "url": "[^.]+\\.(sufubu|zufubu)\\.(com|xyz)/",
     "nextLink": "//a[@class='button is-small is-danger is-rounded is-outlined theme-button'][preceding-sibling::a[@class='button is-small is-danger is-rounded theme-button-selected']]",
     "pageElement": "//div[@class='container']/div[@class='m-2']"
+  },
+  {
+    "url": "[^.]+\\.drtuber\\.com/",
+    "nextLink": "//li[@class='next']/a[text()='Next']|//li/a[preceding::li[@class='selected']]",
+    "pageElement": "//div[@class='container']/div[@class='main']"
+  },
+  {
+    "url": "[^.]+\\.nudevista\\.net/",
+    "nextLink": "//div[@class='pages']/a[@class='next' and text()='Next »']|//div[@class='pages']/a[preceding-sibling::strong]",
+    "pageElement": "//div[@id='results' and @class='results']"
   }
 ]
